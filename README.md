@@ -1,0 +1,27 @@
+# VELORA — Proyecto actualizado
+
+Incluye el hero con la imagen de los equipos y efecto de inclinación, diseño adaptable a celular, transiciones suaves, logo original en el encabezado, nuevo favicon y footer sin el logo grande. No incluye precios ni la frase eliminada.
+
+## Cómo ejecutarlo
+Descomprime el ZIP. Desde la carpeta VELORA ejecuta:
+
+    python3 -m http.server 8000 --directory dist
+
+En Windows puedes usar `py` en lugar de `python3`. Abre http://localhost:8000 en el navegador.
+
+No requiere npm ni compilación. Para hospedarlo, sube el contenido de dist a la raíz del sitio.
+
+## Archivos principales
+- dist/index.html: contenido y estructura.
+- dist/refined.css: estilos y adaptación a dispositivos.
+- dist/interaction.js: menú, formulario, transiciones e inclinación del hero.
+- dist/velora-logo.png: logo del encabezado.
+- dist/velora-hero.png: imagen del hero.
+- dist/favicon.ico y favicon-*.png: iconos del navegador.
+- dist/apple-touch-icon.png: icono para dispositivos Apple.
+
+El hero usa una fotografía con efecto de profundidad; no es un modelo 3D. Las animaciones respetan la preferencia de movimiento reducido del sistema.
+
+Requiere internet para Tailwind CSS, Google Fonts, Font Awesome e imágenes de Unsplash.
+
+El teléfono configurado es 526141234567. Antes de uso comercial, reemplázalo en index.html e interaction.js y confirma correo y redes sociales. El formulario prepara un mensaje de WhatsApp; no guarda datos en una base de datos.
