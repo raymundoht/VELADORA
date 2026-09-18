@@ -24,4 +24,4 @@ El hero usa una fotografía con efecto de profundidad; no es un modelo 3D. Las a
 
 Requiere internet para Tailwind CSS, Google Fonts, Font Awesome e imágenes de Unsplash.
 
-El teléfono configurado es 526141234567. Antes de uso comercial, reemplázalo en index.html e interaction.js y confirma correo y redes sociales. El formulario prepara un mensaje de WhatsApp; no guarda datos en una base de datos.
+El teléfono configurado es 526145989483 y el correo es velorascent1@gmail.com. El formulario envía los datos por correo (vía FormSubmit.co) y también genera un mensaje de WhatsApp.

@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="es" class="scroll-smooth">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VELORA | Aromatización profesional para negocios</title>
-  <meta name="description" content="Transforma la experiencia de tu negocio con aromatización profesional. Equipos para espacios de hasta 250 m², mantenimiento incluido y prueba gratuita durante dos días.">
-  <meta name="keywords" content="aromatización profesional, marketing olfativo, aromatización negocios, difusores corporativos, Velora ambiental, Chihuahua">
+  <meta name="description"
+    content="Transforma la experiencia de tu negocio con aromatización profesional. Equipos para espacios de hasta 250 m², mantenimiento incluido y prueba gratuita durante dos días.">
+  <meta name="keywords"
+    content="aromatización profesional, marketing olfativo, aromatización negocios, difusores corporativos, Velora ambiental, Chihuahua">
   <meta name="author" content="VELORA">
-  
+
   <!-- Open Graph / Social Media -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="VELORA | Aromatización profesional para negocios">
-  <meta property="og:description" content="Aromas que dejan huella. Equipos de alta tecnología con prueba gratuita de 2 días y mantenimiento incluido.">
-  <meta property="og:image" content="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80">
-  
+  <meta property="og:description"
+    content="Aromas que dejan huella. Equipos de alta tecnología con prueba gratuita de 2 días y mantenimiento incluido.">
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80">
+
   <!-- Google Fonts: Cinzel (Luxury Serif) & Plus Jakarta Sans (Modern Clean Sans) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  
+
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
+
   <script>
     tailwind.config = {
       theme: {
@@ -52,7 +59,7 @@
       }
     }
   </script>
-  
+
   <style>
     /* Custom Luxury Styling & Glow Effects */
     body {
@@ -60,10 +67,10 @@
       color: #F7F7F5;
       font-family: 'Plus Jakarta Sans', sans-serif;
       overflow-x: hidden;
-      
-      
+
+
     }
-    
+
     ::selection {
       background: #E6E6E6;
       color: #080808;
@@ -108,9 +115,20 @@
 
     /* Ambient Mist Animation */
     @keyframes subtleDrift {
-      0% { transform: translateY(0) scale(1); opacity: 0.25; }
-      50% { transform: translateY(-12px) scale(1.05); opacity: 0.4; }
-      100% { transform: translateY(0) scale(1); opacity: 0.25; }
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.25;
+      }
+
+      50% {
+        transform: translateY(-12px) scale(1.05);
+        opacity: 0.4;
+      }
+
+      100% {
+        transform: translateY(0) scale(1);
+        opacity: 0.25;
+      }
     }
 
     .ambient-drift {
@@ -121,13 +139,16 @@
     ::-webkit-scrollbar {
       width: 8px;
     }
+
     ::-webkit-scrollbar-track {
       background: #080808;
     }
+
     ::-webkit-scrollbar-thumb {
       background: #292929;
       border-radius: 4px;
     }
+
     ::-webkit-scrollbar-thumb:hover {
       background: #B8B8B8;
     }
@@ -138,61 +159,67 @@
   <link rel="icon" href="./favicon-192.png?v=7" type="image/png" sizes="192x192">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png?v=7" sizes="180x180">
 </head>
+
 <body class="bg-velora-obsidian text-velora-warmWhite antialiased">
 
   <a href="#inicio" class="skip-link">Saltar al contenido</a>
   <!-- Top Navigation Bar -->
   <header class="fixed top-0 left-0 w-full z-50 glass-nav transition-all duration-300" id="mainHeader">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-      
+
       <!-- VELORA Brandmark -->
-      <a href="#inicio" class="brand-link" aria-label="VELORA — Inicio"><img src="./velora-logo.png" width="1254" height="600" alt="VELORA · Professional Scent Solutions" class="brand-logo" fetchpriority="high"></a>
+      <a href="#inicio" class="brand-link" aria-label="VELORA — Inicio"><img src="./velora-logo.png" width="1254"
+          height="600" alt="VELORA · Professional Scent Solutions" class="brand-logo" fetchpriority="high"></a>
 
       <!-- Desktop Navigation Links -->
       <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
-        
+
         <a href="#ambiental" class="text-velora-muted hover:text-velora-champagne transition-colors py-1">Ambiental</a>
         <a href="#equipos" class="text-velora-muted hover:text-velora-champagne transition-colors py-1">Equipos</a>
-        <a href="#lineas" class="text-velora-muted hover:text-velora-champagne transition-colors py-1">Nuestras Líneas</a>
+        <a href="#lineas" class="text-velora-muted hover:text-velora-champagne transition-colors py-1">Nuestras
+          Líneas</a>
         <a href="#nosotros" class="text-velora-muted hover:text-velora-champagne transition-colors py-1">Nosotros</a>
         <a href="#contacto" class="text-velora-muted hover:text-velora-champagne transition-colors py-1">Contacto</a>
       </nav>
 
       <!-- Header Action Button (WhatsApp Direct) -->
       <div class="hidden lg:flex items-center space-x-4">
-        <a 
-          href="https://wa.me/526141234567?text=Hola%2C%20quiero%20solicitar%20la%20prueba%20gratuita%20de%20aromatizaci%C3%B3n%20para%20mi%20negocio." 
-          target="_blank" 
-          rel="noopener noreferrer"
-          class="relative inline-flex items-center justify-center px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-gradient-to-r from-velora-champagneLight via-velora-champagne to-velora-champagneDark rounded-full hover:shadow-lg hover:shadow-velora-champagne/20 transition-all duration-300 transform hover:-translate-y-0.5"
-        >
+        <a href="https://wa.me/526145989483?text=Hola%2C%20quiero%20solicitar%20la%20prueba%20gratuita%20de%20aromatizaci%C3%B3n%20para%20mi%20negocio."
+          target="_blank" rel="noopener noreferrer"
+          class="relative inline-flex items-center justify-center px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-gradient-to-r from-velora-champagneLight via-velora-champagne to-velora-champagneDark rounded-full hover:shadow-lg hover:shadow-velora-champagne/20 transition-all duration-300 transform hover:-translate-y-0.5">
           <i class="fab fa-whatsapp text-sm mr-2 font-bold"></i>
           Solicita tu prueba gratis
         </a>
       </div>
 
       <!-- Mobile Menu Hamburger -->
-      <button id="mobileMenuBtn" aria-expanded="false" aria-controls="mobileDrawer" class="md:hidden text-velora-muted hover:text-white p-2 focus:outline-none" aria-label="Abrir menú">
+      <button id="mobileMenuBtn" aria-expanded="false" aria-controls="mobileDrawer"
+        class="md:hidden text-velora-muted hover:text-white p-2 focus:outline-none" aria-label="Abrir menú">
         <i class="fas fa-bars text-xl" id="menuIcon"></i>
       </button>
     </div>
 
     <!-- Mobile Drawer -->
-    <div id="mobileDrawer" class="hidden md:hidden bg-velora-night/95 border-b border-velora-border px-6 py-6 space-y-4">
-      <a href="#inicio" class="block text-base font-medium text-white hover:text-velora-champagne transition-colors mobile-link">Inicio</a>
-      <a href="#ambiental" class="block text-base font-medium text-velora-muted hover:text-velora-champagne transition-colors mobile-link">Ambiental</a>
-      <a href="#equipos" class="block text-base font-medium text-velora-muted hover:text-velora-champagne transition-colors mobile-link">Equipos</a>
-      <a href="#lineas" class="block text-base font-medium text-velora-muted hover:text-velora-champagne transition-colors mobile-link">Nuestras Líneas</a>
-      <a href="#nosotros" class="block text-base font-medium text-velora-muted hover:text-velora-champagne transition-colors mobile-link">Nosotros</a>
-      <a href="#contacto" class="block text-base font-medium text-velora-muted hover:text-velora-champagne transition-colors mobile-link">Contacto</a>
-      
+    <div id="mobileDrawer"
+      class="hidden md:hidden bg-velora-night/95 border-b border-velora-border px-6 py-6 space-y-4">
+      <a href="#inicio"
+        class="block text-base font-medium text-white hover:text-velora-champagne transition-colors mobile-link">Inicio</a>
+      <a href="#ambiental"
+        class="block text-base font-medium text-velora-muted hover:text-velora-champagne transition-colors mobile-link">Ambiental</a>
+      <a href="#equipos"
+        class="block text-base font-medium text-velora-muted hover:text-velora-champagne transition-colors mobile-link">Equipos</a>
+      <a href="#lineas"
+        class="block text-base font-medium text-velora-muted hover:text-velora-champagne transition-colors mobile-link">Nuestras
+        Líneas</a>
+      <a href="#nosotros"
+        class="block text-base font-medium text-velora-muted hover:text-velora-champagne transition-colors mobile-link">Nosotros</a>
+      <a href="#contacto"
+        class="block text-base font-medium text-velora-muted hover:text-velora-champagne transition-colors mobile-link">Contacto</a>
+
       <div class="pt-4 border-t border-velora-border">
-        <a 
-          href="https://wa.me/526141234567?text=Hola%2C%20quiero%20solicitar%20la%20prueba%20gratuita%20de%20aromatizaci%C3%B3n%20para%20mi%20negocio."
-          target="_blank" 
-          rel="noopener noreferrer" 
-          class="w-full inline-flex items-center justify-center px-5 py-3 text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-velora-champagne rounded-full"
-        >
+        <a href="https://wa.me/526145989483?text=Hola%2C%20quiero%20solicitar%20la%20prueba%20gratuita%20de%20aromatizaci%C3%B3n%20para%20mi%20negocio."
+          target="_blank" rel="noopener noreferrer"
+          class="w-full inline-flex items-center justify-center px-5 py-3 text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-velora-champagne rounded-full">
           <i class="fab fa-whatsapp text-base mr-2"></i>
           Solicita tu prueba gratis
         </a>
@@ -201,1132 +228,1217 @@
   </header>
 
   <main>
-  <section id="inicio" class="editorial-hero">
-    <div class="hero-layout shell">
-      <div class="hero-copy">
-        <h1>Tu marca.<br>Una esencia<br><span>inolvidable.</span></h1>
-        <p>Aromatización profesional que transforma tu espacio en una experiencia que permanece.</p>
-        <div class="hero-actions"><a class="button primary" href="#prueba-gratis">Prueba 2 días gratis <i class="fas fa-arrow-right" aria-hidden="true"></i></a><a class="button secondary" href="#equipos">Explora los equipos</a></div>
-        <div class="hero-note">Sin compromiso. Instalación y asesoría incluidas.</div>
+    <section id="inicio" class="editorial-hero">
+      <div class="hero-layout shell">
+        <div class="hero-copy">
+          <h1>Tu marca.<br>Una esencia<br><span>inolvidable.</span></h1>
+          <p>Aromatización profesional que transforma tu espacio en una experiencia que permanece.</p>
+          <div class="hero-actions"><a class="button primary" href="#prueba-gratis">Prueba 2 días gratis <i
+                class="fas fa-arrow-right" aria-hidden="true"></i></a><a class="button secondary"
+              href="#equipos">Explora los equipos</a></div>
+          <div class="hero-note">Sin compromiso. Instalación y asesoría incluidas.</div>
+        </div>
+        <div class="hero-art" tabindex="0" role="group"
+          aria-label="Imagen interactiva de equipos VELORA. Mueve el cursor, desliza horizontalmente o usa las flechas para inclinarla."
+          title="Mueve el cursor o desliza para explorar"><img class="hero-product-image" draggable="false"
+            src="./velora-hero.png" width="1691" height="930"
+            alt="Tres equipos de aromatización VELORA sobre una plataforma iluminada, difundiendo una fina bruma"
+            fetchpriority="high" decoding="async"></div>
       </div>
-      <div class="hero-art" tabindex="0" role="group" aria-label="Imagen interactiva de equipos VELORA. Mueve el cursor, desliza horizontalmente o usa las flechas para inclinarla." title="Mueve el cursor o desliza para explorar"><img class="hero-product-image" draggable="false" src="./velora-hero.png" width="1691" height="930" alt="Tres equipos de aromatización VELORA sobre una plataforma iluminada, difundiendo una fina bruma" fetchpriority="high" decoding="async"></div>
-    </div>
-    <div class="sector-row shell"><span>Una nueva atmósfera para</span><span>Hoteles</span><span>Restaurantes</span><span>Oficinas</span><span>Boutiques</span><span>Spas</span></div>
-  </section>
-  <!-- Presentación de VELORA -->
-  <section class="py-20 md:py-28 border-t border-white/5 relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        <!-- Brand Introduction Narrative -->
-        <div class="lg:col-span-6 space-y-6">
-          <div class="inline-flex items-center space-x-2">
-            <span class="text-velora-champagne font-serif text-sm tracking-[0.2em] uppercase font-semibold">01 / La experiencia</span>
-            <div class="w-8 h-px bg-velora-champagne/40"></div>
+      <div class="sector-row shell"><span>Una nueva atmósfera
+          para</span><span>Hoteles</span><span>Restaurantes</span><span>Oficinas</span><span>Boutiques</span><span>Spas</span>
+      </div>
+    </section>
+    <!-- Presentación de VELORA -->
+    <section class="py-20 md:py-28 border-t border-white/5 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <!-- Brand Introduction Narrative -->
+          <div class="lg:col-span-6 space-y-6">
+            <div class="inline-flex items-center space-x-2">
+              <span class="text-velora-champagne font-serif text-sm tracking-[0.2em] uppercase font-semibold">01 / La
+                experiencia</span>
+              <div class="w-8 h-px bg-velora-champagne/40"></div>
+            </div>
+
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-serif text-white leading-tight">
+              Mucho más que un <span class="gold-gradient-text">aroma</span>
+            </h2>
+
+            <p class="text-base sm:text-lg text-slate-300 font-light leading-relaxed">
+              En <strong class="text-white font-medium">VELORA</strong> creamos experiencias a través del aroma.
+              Desarrollamos soluciones para empresas, espacios, personas y vehículos, combinando fragancias de alta
+              calidad, tecnología de vanguardia y atención personalizada.
+            </p>
+
+            <p class="text-sm sm:text-base text-velora-muted leading-relaxed">
+              Actualmente, nuestra división especializada <strong class="text-velora-champagne">VELORA
+                Ambiental</strong> ofrece sistemas profesionales de aromatización diseñados meticulosamente para
+              negocios de diferentes tamaños e identidades comerciales.
+            </p>
+
+            <div class="pt-2">
+              <a href="#prueba-gratis"
+                class="inline-flex items-center text-xs font-semibold uppercase tracking-widest text-velora-champagne hover:text-white transition-colors group">
+                <span>Descubre el impacto en tu empresa</span>
+                <i
+                  class="fas fa-chevron-right text-[10px] ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+              </a>
+            </div>
           </div>
-          
-          <h2 class="text-3xl sm:text-4xl md:text-5xl font-serif text-white leading-tight">
-            Mucho más que un <span class="gold-gradient-text">aroma</span>
+
+          <!-- 4 Key Data Bento Pillars -->
+          <div class="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+            <!-- Pillar 1 -->
+            <div class="bento-card p-6 rounded-2xl">
+              <div
+                class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-velora-champagne mb-4">
+                <i class="fas fa-calendar-check text-xl"></i>
+              </div>
+              <div class="text-2xl font-serif font-bold text-white mb-1">2 Días</div>
+              <h3 class="text-sm font-semibold text-velora-champagneLight uppercase tracking-wider mb-2">Prueba gratuita
+              </h3>
+              <p class="text-xs text-velora-muted leading-relaxed">Instalamos el equipo en tu establecimiento sin costo
+                para que sientas la transformación.</p>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div class="bento-card p-6 rounded-2xl">
+              <div
+                class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-velora-champagne mb-4">
+                <i class="fas fa-expand text-xl"></i>
+              </div>
+              <div class="text-2xl font-serif font-bold text-white mb-1">Hasta 250 m²</div>
+              <h3 class="text-sm font-semibold text-velora-champagneLight uppercase tracking-wider mb-2">Cobertura total
+              </h3>
+              <p class="text-xs text-velora-muted leading-relaxed">Potentes difusores con micro-nebulización uniforme
+                para cualquier distribución arquitectónica.</p>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div class="bento-card p-6 rounded-2xl">
+              <div
+                class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-velora-champagne mb-4">
+                <i class="fas fa-screwdriver-wrench text-xl"></i>
+              </div>
+              <div class="text-2xl font-serif font-bold text-white mb-1">100% Incluido</div>
+              <h3 class="text-sm font-semibold text-velora-champagneLight uppercase tracking-wider mb-2">Servicio &
+                soporte</h3>
+              <p class="text-xs text-velora-muted leading-relaxed">Recarga mensual de esencia, mantenimiento preventivo
+                y garantías continuas sin costos imprevistos.</p>
+            </div>
+
+            <!-- Pillar 4 -->
+            <div class="bento-card p-6 rounded-2xl">
+              <div
+                class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-velora-champagne mb-4">
+                <i class="fas fa-compass-drafting text-xl"></i>
+              </div>
+              <div class="text-2xl font-serif font-bold text-white mb-1">Personalizado</div>
+              <h3 class="text-sm font-semibold text-velora-champagneLight uppercase tracking-wider mb-2">Asesoría
+                experta</h3>
+              <p class="text-xs text-velora-muted leading-relaxed">Curaduría olfativa para alinear el aroma exacto con
+                el posicionamiento y perfil de tu negocio.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- División Principal: VELORA Ambiental -->
+    <section id="ambiental" class="py-24 bg-velora-night/50 border-t border-white/5 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Section Header -->
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-6">
+            Transformamos espacios <span class="gold-gradient-text">en experiencias</span>
           </h2>
-          
-          <p class="text-base sm:text-lg text-slate-300 font-light leading-relaxed">
-            En <strong class="text-white font-medium">VELORA</strong> creamos experiencias a través del aroma. Desarrollamos soluciones para empresas, espacios, personas y vehículos, combinando fragancias de alta calidad, tecnología de vanguardia y atención personalizada.
+          <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-light">
+            Creamos ambientes agradables mediante fragancias profesionales que mejoran sensiblemente la percepción de
+            tus clientes y el confort de tus colaboradores.
           </p>
-          
-          <p class="text-sm sm:text-base text-velora-muted leading-relaxed">
-            Actualmente, nuestra división especializada <strong class="text-velora-champagne">VELORA Ambiental</strong> ofrece sistemas profesionales de aromatización diseñados meticulosamente para negocios de diferentes tamaños e identidades comerciales.
-          </p>
-
-          <div class="pt-2">
-            <a href="#prueba-gratis" class="inline-flex items-center text-xs font-semibold uppercase tracking-widest text-velora-champagne hover:text-white transition-colors group">
-              <span>Descubre el impacto en tu empresa</span>
-              <i class="fas fa-chevron-right text-[10px] ml-2 transform group-hover:translate-x-1 transition-transform"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- 4 Key Data Bento Pillars -->
-        <div class="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-          
-          <!-- Pillar 1 -->
-          <div class="bento-card p-6 rounded-2xl">
-            <div class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-velora-champagne mb-4">
-              <i class="fas fa-calendar-check text-xl"></i>
-            </div>
-            <div class="text-2xl font-serif font-bold text-white mb-1">2 Días</div>
-            <h3 class="text-sm font-semibold text-velora-champagneLight uppercase tracking-wider mb-2">Prueba gratuita</h3>
-            <p class="text-xs text-velora-muted leading-relaxed">Instalamos el equipo en tu establecimiento sin costo para que sientas la transformación.</p>
-          </div>
-
-          <!-- Pillar 2 -->
-          <div class="bento-card p-6 rounded-2xl">
-            <div class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-velora-champagne mb-4">
-              <i class="fas fa-expand text-xl"></i>
-            </div>
-            <div class="text-2xl font-serif font-bold text-white mb-1">Hasta 250 m²</div>
-            <h3 class="text-sm font-semibold text-velora-champagneLight uppercase tracking-wider mb-2">Cobertura total</h3>
-            <p class="text-xs text-velora-muted leading-relaxed">Potentes difusores con micro-nebulización uniforme para cualquier distribución arquitectónica.</p>
-          </div>
-
-          <!-- Pillar 3 -->
-          <div class="bento-card p-6 rounded-2xl">
-            <div class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-velora-champagne mb-4">
-              <i class="fas fa-screwdriver-wrench text-xl"></i>
-            </div>
-            <div class="text-2xl font-serif font-bold text-white mb-1">100% Incluido</div>
-            <h3 class="text-sm font-semibold text-velora-champagneLight uppercase tracking-wider mb-2">Servicio & soporte</h3>
-            <p class="text-xs text-velora-muted leading-relaxed">Recarga mensual de esencia, mantenimiento preventivo y garantías continuas sin costos imprevistos.</p>
-          </div>
-
-          <!-- Pillar 4 -->
-          <div class="bento-card p-6 rounded-2xl">
-            <div class="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-velora-champagne mb-4">
-              <i class="fas fa-compass-drafting text-xl"></i>
-            </div>
-            <div class="text-2xl font-serif font-bold text-white mb-1">Personalizado</div>
-            <h3 class="text-sm font-semibold text-velora-champagneLight uppercase tracking-wider mb-2">Asesoría experta</h3>
-            <p class="text-xs text-velora-muted leading-relaxed">Curaduría olfativa para alinear el aroma exacto con el posicionamiento y perfil de tu negocio.</p>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- División Principal: VELORA Ambiental -->
-  <section id="ambiental" class="py-24 bg-velora-night/50 border-t border-white/5 relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <!-- Section Header -->
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-6">
-          Transformamos espacios <span class="gold-gradient-text">en experiencias</span>
-        </h2>
-        <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-light">
-          Creamos ambientes agradables mediante fragancias profesionales que mejoran sensiblemente la percepción de tus clientes y el confort de tus colaboradores.
-        </p>
-        <p class="text-sm text-velora-muted mt-3">
-          Nuestro servicio se adapta al tamaño, circulación de aire e identidad de cada espacio, para encontrar el equipo, la intensidad y la firma olfativa perfecta.
-        </p>
-      </div>
-
-      <!-- Tipos de Negocios Grid (High Quality Curated Spaces) -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        
-        <!-- Negocio 1: Hoteles -->
-        <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
-          <div class="h-48 overflow-hidden relative">
-            <img 
-              src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80" 
-              alt="Aromatización profesional en Hoteles de lujo" 
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
-            <span class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Hospitalidad</span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">Hoteles & Resorts</h3>
-              <p class="text-xs text-velora-muted mt-2 leading-relaxed">Lobbies, pasillos y suites que reciben a tus huéspedes con una sensación de lujo relajante y sofisticado.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Negocio 2: Restaurantes -->
-        <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
-          <div class="h-48 overflow-hidden relative">
-            <img 
-              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" 
-              alt="Aromatización estratégica en Restaurantes y bares" 
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
-            <span class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Gastronomía</span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">Restaurantes</h3>
-              <p class="text-xs text-velora-muted mt-2 leading-relaxed">Áreas de recepción, terrazas y tocadores con aromas sutiles que armonizan con la propuesta culinaria.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Negocio 3: Oficinas -->
-        <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
-          <div class="h-48 overflow-hidden relative">
-            <img 
-              src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80" 
-              alt="Ambientes corporativos en Oficinas modernas" 
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
-            <span class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Corporativo</span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">Oficinas & Salas de Juntas</h3>
-              <p class="text-xs text-velora-muted mt-2 leading-relaxed">Estimula el enfoque mental, proyecta seriedad empresarial y mejora el bienestar del equipo.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Negocio 4: Boutiques -->
-        <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
-          <div class="h-48 overflow-hidden relative">
-            <img 
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80" 
-              alt="Marketing olfativo en Boutiques y retail" 
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
-            <span class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Retail</span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">Boutiques & Showrooms</h3>
-              <p class="text-xs text-velora-muted mt-2 leading-relaxed">Eleva el ticket promedio aumentando el tiempo de permanencia de tus compradores con notas exclusivas.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Negocio 5: Consultorios -->
-        <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
-          <div class="h-48 overflow-hidden relative">
-            <img 
-              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=600&q=80" 
-              alt="Consultorios médicos y clínicas de salud" 
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
-            <span class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Salud</span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">Consultorios & Clínicas</h3>
-              <p class="text-xs text-velora-muted mt-2 leading-relaxed">Genera tranquilidad en salas de espera, atenuando el estrés y transmitiendo higiene impoluta.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Negocio 6: Gimnasios -->
-        <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
-          <div class="h-48 overflow-hidden relative">
-            <img 
-              src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80" 
-              alt="Gimnasios y centros fitness de alto rendimiento" 
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
-            <span class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Wellness</span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">Gimnasios & Fitness</h3>
-              <p class="text-xs text-velora-muted mt-2 leading-relaxed">Neutralización continua de olores fuertes y sustitución por notas vigorizantes y energéticas.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Negocio 7: Salones y Spas -->
-        <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
-          <div class="h-48 overflow-hidden relative">
-            <img 
-              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80" 
-              alt="Salones de belleza y spas de lujo" 
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
-            <span class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Belleza</span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">Salones & Spas</h3>
-              <p class="text-xs text-velora-muted mt-2 leading-relaxed">Inmersión sensorial completa que envuelve a tus clientes en desconexión y descanso absoluto.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Negocio 8: Agencias Automotrices -->
-        <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
-          <div class="h-48 overflow-hidden relative">
-            <img 
-              src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80" 
-              alt="Agencias automotrices y concesionarias" 
-              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
-            <span class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Automotriz</span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">Agencias Automotrices</h3>
-              <p class="text-xs text-velora-muted mt-2 leading-relaxed">Showrooms de entrega y salas de negociación con aromas de cuero fino, maderas y exclusividad.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Beneficios para el negocio -->
-  <section class="py-24 border-t border-white/5 relative overflow-hidden">
-    <!-- Subtle Background Glow -->
-    <div class="absolute bottom-10 left-10 w-80 h-80 bg-velora-champagne/5 rounded-full blur-3xl pointer-events-none"></div>
-
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block mb-3">Valor de Marca</span>
-        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white">
-          Haz que tu espacio <span class="gold-gradient-text">deje huella</span>
-        </h2>
-        <p class="text-velora-muted text-sm sm:text-base mt-4">
-          El sentido del olfato es el único conectado directamente al sistema límbico, responsable de las emociones y la memoria a largo plazo.
-        </p>
-      </div>
-
-      <!-- 5 Bento Grid Benefit Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        
-        <!-- Beneficio 1 -->
-        <div class="bento-card p-8 rounded-2xl">
-          <div class="w-12 h-12 rounded-xl bg-white/5 border border-velora-champagne/30 flex items-center justify-center text-velora-champagne mb-6">
-            <i class="fas fa-sparkles text-xl"></i>
-          </div>
-          <h3 class="text-xl font-serif font-semibold text-white mb-3">Mejora la experiencia</h3>
-          <p class="text-sm text-velora-muted leading-relaxed">
-            Crea una atmósfera armónica y acogedora desde el primer segundo para clientes, visitantes y colaboradores.
+          <p class="text-sm text-velora-muted mt-3">
+            Nuestro servicio se adapta al tamaño, circulación de aire e identidad de cada espacio, para encontrar el
+            equipo, la intensidad y la firma olfativa perfecta.
           </p>
         </div>
 
-        <!-- Beneficio 2 -->
-        <div class="bento-card p-8 rounded-2xl">
-          <div class="w-12 h-12 rounded-xl bg-white/5 border border-velora-champagne/30 flex items-center justify-center text-velora-champagne mb-6">
-            <i class="fas fa-fingerprint text-xl"></i>
-          </div>
-          <h3 class="text-xl font-serif font-semibold text-white mb-3">Refuerza tu identidad</h3>
-          <p class="text-sm text-velora-muted leading-relaxed">
-            El aroma se convierte en un logotipo invisible, logrando que tu marca sea instantáneamente reconocible y única.
-          </p>
-        </div>
+        <!-- Tipos de Negocios Grid (High Quality Curated Spaces) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-        <!-- Beneficio 3 -->
-        <div class="bento-card p-8 rounded-2xl">
-          <div class="w-12 h-12 rounded-xl bg-white/5 border border-velora-champagne/30 flex items-center justify-center text-velora-champagne mb-6">
-            <i class="fas fa-clock text-xl"></i>
-          </div>
-          <h3 class="text-xl font-serif font-semibold text-white mb-3">Genera permanencia</h3>
-          <p class="text-sm text-velora-muted leading-relaxed">
-            Un ambiente que huele de forma agradable y sutil invita a las personas a relajarse y permanecer más tiempo en tus instalaciones.
-          </p>
-        </div>
-
-        <!-- Beneficio 4 -->
-        <div class="bento-card p-8 rounded-2xl">
-          <div class="w-12 h-12 rounded-xl bg-white/5 border border-velora-champagne/30 flex items-center justify-center text-velora-champagne mb-6">
-            <i class="fas fa-award text-xl"></i>
-          </div>
-          <h3 class="text-xl font-serif font-semibold text-white mb-3">Proyecta profesionalismo</h3>
-          <p class="text-sm text-velora-muted leading-relaxed">
-            Cada detalle sensorial comunica el cuidado, la calidad y el estándar de excelencia de tu negocio.
-          </p>
-        </div>
-
-        <!-- Beneficio 5 -->
-        <div class="bento-card p-8 rounded-2xl md:col-span-2 lg:col-span-2">
-          <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-            <div class="w-12 h-12 rounded-xl bg-white/5 border border-velora-champagne/30 flex items-center justify-center text-velora-champagne shrink-0">
-              <i class="fas fa-brain text-xl"></i>
+          <!-- Negocio 1: Hoteles -->
+          <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80"
+                alt="Aromatización profesional en Hoteles de lujo"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
+              <span
+                class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Hospitalidad</span>
             </div>
-            <div>
-              <h3 class="text-xl font-serif font-semibold text-white mb-2">Crea recuerdos duraderos</h3>
-              <p class="text-sm text-velora-muted leading-relaxed">
-                Los aromas pueden evocar recuerdos y conectar con las emociones. Conecta directamente con las emociones de quienes te visitan para que siempre deseen volver.
-              </p>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">
+                  Hoteles & Resorts</h3>
+                <p class="text-xs text-velora-muted mt-2 leading-relaxed">Lobbies, pasillos y suites que reciben a tus
+                  huéspedes con una sensación de lujo relajante y sofisticado.</p>
+              </div>
             </div>
           </div>
+
+          <!-- Negocio 2: Restaurantes -->
+          <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80"
+                alt="Aromatización estratégica en Restaurantes y bares"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
+              <span
+                class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Gastronomía</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">
+                  Restaurantes</h3>
+                <p class="text-xs text-velora-muted mt-2 leading-relaxed">Áreas de recepción, terrazas y tocadores con
+                  aromas sutiles que armonizan con la propuesta culinaria.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Negocio 3: Oficinas -->
+          <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=600&q=80"
+                alt="Ambientes corporativos en Oficinas modernas"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
+              <span
+                class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Corporativo</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">
+                  Oficinas & Salas de Juntas</h3>
+                <p class="text-xs text-velora-muted mt-2 leading-relaxed">Estimula el enfoque mental, proyecta seriedad
+                  empresarial y mejora el bienestar del equipo.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Negocio 4: Boutiques -->
+          <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80"
+                alt="Marketing olfativo en Boutiques y retail"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
+              <span
+                class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Retail</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">
+                  Boutiques & Showrooms</h3>
+                <p class="text-xs text-velora-muted mt-2 leading-relaxed">Eleva el ticket promedio aumentando el tiempo
+                  de permanencia de tus compradores con notas exclusivas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Negocio 5: Consultorios -->
+          <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=600&q=80"
+                alt="Consultorios médicos y clínicas de salud"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
+              <span
+                class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Salud</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">
+                  Consultorios & Clínicas</h3>
+                <p class="text-xs text-velora-muted mt-2 leading-relaxed">Genera tranquilidad en salas de espera,
+                  atenuando el estrés y transmitiendo higiene impoluta.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Negocio 6: Gimnasios -->
+          <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80"
+                alt="Gimnasios y centros fitness de alto rendimiento"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
+              <span
+                class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Wellness</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">
+                  Gimnasios & Fitness</h3>
+                <p class="text-xs text-velora-muted mt-2 leading-relaxed">Neutralización continua de olores fuertes y
+                  sustitución por notas vigorizantes y energéticas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Negocio 7: Salones y Spas -->
+          <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80"
+                alt="Salones de belleza y spas de lujo"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
+              <span
+                class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Belleza</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">
+                  Salones & Spas</h3>
+                <p class="text-xs text-velora-muted mt-2 leading-relaxed">Inmersión sensorial completa que envuelve a
+                  tus clientes en desconexión y descanso absoluto.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Negocio 8: Agencias Automotrices -->
+          <div class="group bento-card rounded-2xl overflow-hidden flex flex-col">
+            <div class="h-48 overflow-hidden relative">
+              <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=80"
+                alt="Agencias automotrices y concesionarias"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+              <div class="absolute inset-0 bg-gradient-to-t from-velora-card via-transparent to-transparent"></div>
+              <span
+                class="absolute top-3 left-3 text-[11px] font-semibold tracking-wider uppercase px-2.5 py-1 rounded bg-velora-obsidian/80 text-velora-champagne border border-white/10">Automotriz</span>
+            </div>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-serif font-bold text-white group-hover:text-velora-champagne transition-colors">
+                  Agencias Automotrices</h3>
+                <p class="text-xs text-velora-muted mt-2 leading-relaxed">Showrooms de entrega y salas de negociación
+                  con aromas de cuero fino, maderas y exclusividad.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Equipos de Aromatización -->
-  <section id="equipos" class="py-24 bg-velora-night border-t border-white/5 relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block mb-3">Sistemas Profesionales</span>
-        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">
-          Un equipo para <span class="gold-gradient-text">cada espacio</span>
-        </h2>
-        <p class="text-velora-muted text-base">
-          Seleccionamos el sistema ideal de acuerdo con los metros cuadrados, ventilación, distribución y necesidades operativas de tu negocio.
-        </p>
+    <!-- Beneficios para el negocio -->
+    <section class="py-24 border-t border-white/5 relative overflow-hidden">
+      <!-- Subtle Background Glow -->
+      <div class="absolute bottom-10 left-10 w-80 h-80 bg-velora-champagne/5 rounded-full blur-3xl pointer-events-none">
       </div>
 
-      <!-- Equipment Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
-        
-        <!-- Tier 1: Equipo Chico -->
-        <div class="bento-card rounded-3xl p-8 flex flex-col justify-between relative">
-          <div>
-            <div class="equipment-symbol"><i class="fas fa-wind" aria-hidden="true"></i><span>DIFUSIÓN EN FRÍO</span></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block mb-3">Valor de
+            Marca</span>
+          <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white">
+            Haz que tu espacio <span class="gold-gradient-text">deje huella</span>
+          </h2>
+          <p class="text-velora-muted text-sm sm:text-base mt-4">
+            El sentido del olfato es el único conectado directamente al sistema límbico, responsable de las emociones y
+            la memoria a largo plazo.
+          </p>
+        </div>
 
+        <!-- 5 Bento Grid Benefit Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-            <div class="flex items-center justify-between mb-2">
-              <h3 class="text-2xl font-serif font-bold text-white">Equipo Chico</h3>
-              <span class="text-xs font-semibold px-2.5 py-1 rounded bg-white/5 text-velora-champagne border border-white/10">Hasta 65 m²</span>
+          <!-- Beneficio 1 -->
+          <div class="bento-card p-8 rounded-2xl">
+            <div
+              class="w-12 h-12 rounded-xl bg-white/5 border border-velora-champagne/30 flex items-center justify-center text-velora-champagne mb-6">
+              <i class="fas fa-sparkles text-xl"></i>
             </div>
-            
-            <p class="text-xs text-velora-muted mb-6 leading-relaxed">
-              Ideal para consultorios médicos, oficinas privadas, boutiques selectas y áreas de recepción compactas.
+            <h3 class="text-xl font-serif font-semibold text-white mb-3">Mejora la experiencia</h3>
+            <p class="text-sm text-velora-muted leading-relaxed">
+              Crea una atmósfera armónica y acogedora desde el primer segundo para clientes, visitantes y colaboradores.
             </p>
-
-            <ul class="space-y-3 mb-8 text-xs text-slate-300">
-              <li class="flex items-center space-x-2">
-                <i class="fas fa-check text-velora-champagne text-[11px]"></i>
-                <span>Micro-nebulización silenciosa</span>
-              </li>
-              <li class="flex items-center space-x-2">
-                <i class="fas fa-check text-velora-champagne text-[11px]"></i>
-                <span>Programación digital inteligente</span>
-              </li>
-              <li class="flex items-center space-x-2">
-                <i class="fas fa-check text-velora-champagne text-[11px]"></i>
-                <span>Insumo y mantenimiento 100% incluido</span>
-              </li>
-            </ul>
           </div>
 
-          <div>
-
-            <a 
-              href="https://wa.me/526141234567?text=Hola%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20el%20Equipo%20Chico%20de%2065m2."
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-full py-3 text-center text-xs font-semibold uppercase tracking-wider text-white border border-white/20 rounded-xl hover:border-velora-champagne hover:bg-velora-champagne/10 transition-all block"
-            >
-              Solicitar este equipo
-            </a>
-          </div>
-        </div>
-
-        <!-- Tier 2: Equipo Mediano (Featured) -->
-        <div class="bento-card rounded-3xl p-8 flex flex-col justify-between relative border-velora-champagne/40 shadow-2xl scale-[1.02] bg-gradient-to-b from-velora-card to-velora-night">
-          
-          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-velora-champagne to-velora-champagneDark text-velora-obsidian font-bold text-[10px] tracking-widest uppercase shadow-md">
-            Más Solicitado
-          </div>
-
-          <div>
-            <div class="equipment-symbol"><i class="fas fa-wind" aria-hidden="true"></i><span>DIFUSIÓN EN FRÍO</span></div>
-
-
-            <div class="flex items-center justify-between mb-2">
-              <h3 class="text-2xl font-serif font-bold text-white">Equipo Mediano</h3>
-              <span class="text-xs font-semibold px-2.5 py-1 rounded bg-velora-champagne/20 text-velora-champagne border border-velora-champagne/30">Hasta 120 m²</span>
+          <!-- Beneficio 2 -->
+          <div class="bento-card p-8 rounded-2xl">
+            <div
+              class="w-12 h-12 rounded-xl bg-white/5 border border-velora-champagne/30 flex items-center justify-center text-velora-champagne mb-6">
+              <i class="fas fa-fingerprint text-xl"></i>
             </div>
-            
-            <p class="text-xs text-velora-muted mb-6 leading-relaxed">
-              Ideal para restaurantes, recepciones corporativas, salas de venta, spas y pisos de oficinas completos.
+            <h3 class="text-xl font-serif font-semibold text-white mb-3">Refuerza tu identidad</h3>
+            <p class="text-sm text-velora-muted leading-relaxed">
+              El aroma se convierte en un logotipo invisible, logrando que tu marca sea instantáneamente reconocible y
+              única.
             </p>
-
-            <ul class="space-y-3 mb-8 text-xs text-slate-200">
-              <li class="flex items-center space-x-2">
-                <i class="fas fa-check text-velora-champagne text-[11px]"></i>
-                <span>Dispersión homogénea constante</span>
-              </li>
-              <li class="flex items-center space-x-2">
-                <i class="fas fa-check text-velora-champagne text-[11px]"></i>
-                <span>Ciclos programables por hora y día</span>
-              </li>
-              <li class="flex items-center space-x-2">
-                <i class="fas fa-check text-velora-champagne text-[11px]"></i>
-                <span>Recargas y calibración mensual incluida</span>
-              </li>
-            </ul>
           </div>
 
-          <div>
-
-            <a 
-              href="https://wa.me/526141234567?text=Hola%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20el%20Equipo%20Mediano%20de%20120m2."
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-full py-3.5 text-center text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-gradient-to-r from-velora-champagneLight via-velora-champagne to-velora-champagneDark rounded-xl shadow-lg shadow-velora-champagne/20 hover:opacity-95 transition-all block"
-            >
-              Solicitar este equipo
-            </a>
-          </div>
-        </div>
-
-        <!-- Tier 3: Equipo Grande -->
-        <div class="bento-card rounded-3xl p-8 flex flex-col justify-between relative">
-          <div>
-            <div class="equipment-symbol"><i class="fas fa-wind" aria-hidden="true"></i><span>DIFUSIÓN EN FRÍO</span></div>
-
-
-            <div class="flex items-center justify-between mb-2">
-              <h3 class="text-2xl font-serif font-bold text-white">Equipo Grande</h3>
-              <span class="text-xs font-semibold px-2.5 py-1 rounded bg-white/5 text-velora-champagne border border-white/10">Hasta 250 m²</span>
+          <!-- Beneficio 3 -->
+          <div class="bento-card p-8 rounded-2xl">
+            <div
+              class="w-12 h-12 rounded-xl bg-white/5 border border-velora-champagne/30 flex items-center justify-center text-velora-champagne mb-6">
+              <i class="fas fa-clock text-xl"></i>
             </div>
-            
-            <p class="text-xs text-velora-muted mb-6 leading-relaxed">
-              Ideal para hoteles, gimnasios, agencias automotrices, salones de eventos y grandes superficies comerciales.
+            <h3 class="text-xl font-serif font-semibold text-white mb-3">Genera permanencia</h3>
+            <p class="text-sm text-velora-muted leading-relaxed">
+              Un ambiente que huele de forma agradable y sutil invita a las personas a relajarse y permanecer más tiempo
+              en tus instalaciones.
             </p>
-
-            <ul class="space-y-3 mb-8 text-xs text-slate-300">
-              <li class="flex items-center space-x-2">
-                <i class="fas fa-check text-velora-champagne text-[11px]"></i>
-                <span>Conexión a ductos de clima o difusión directa</span>
-              </li>
-              <li class="flex items-center space-x-2">
-                <i class="fas fa-check text-velora-champagne text-[11px]"></i>
-                <span>Máxima cobertura con flujo ultra-fino</span>
-              </li>
-              <li class="flex items-center space-x-2">
-                <i class="fas fa-check text-velora-champagne text-[11px]"></i>
-                <span>Soporte prioritario y reposición express</span>
-              </li>
-            </ul>
           </div>
 
-          <div>
-
-            <a 
-              href="https://wa.me/526141234567?text=Hola%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20el%20Equipo%20Grande%20de%20250m2."
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-full py-3 text-center text-xs font-semibold uppercase tracking-wider text-white border border-white/20 rounded-xl hover:border-velora-champagne hover:bg-velora-champagne/10 transition-all block"
-            >
-              Solicitar este equipo
-            </a>
+          <!-- Beneficio 4 -->
+          <div class="bento-card p-8 rounded-2xl">
+            <div
+              class="w-12 h-12 rounded-xl bg-white/5 border border-velora-champagne/30 flex items-center justify-center text-velora-champagne mb-6">
+              <i class="fas fa-award text-xl"></i>
+            </div>
+            <h3 class="text-xl font-serif font-semibold text-white mb-3">Proyecta profesionalismo</h3>
+            <p class="text-sm text-velora-muted leading-relaxed">
+              Cada detalle sensorial comunica el cuidado, la calidad y el estándar de excelencia de tu negocio.
+            </p>
           </div>
+
+          <!-- Beneficio 5 -->
+          <div class="bento-card p-8 rounded-2xl md:col-span-2 lg:col-span-2">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+              <div
+                class="w-12 h-12 rounded-xl bg-white/5 border border-velora-champagne/30 flex items-center justify-center text-velora-champagne shrink-0">
+                <i class="fas fa-brain text-xl"></i>
+              </div>
+              <div>
+                <h3 class="text-xl font-serif font-semibold text-white mb-2">Crea recuerdos duraderos</h3>
+                <p class="text-sm text-velora-muted leading-relaxed">
+                  Los aromas pueden evocar recuerdos y conectar con las emociones. Conecta directamente con las
+                  emociones de quienes te visitan para que siempre deseen volver.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
-
       </div>
+    </section>
 
-      <!-- Equipment Advisor CTA -->
-      <div class="mt-12 text-center max-w-xl mx-auto">
-        <a 
-          href="https://wa.me/526141234567?text=Hola%2C%20no%20estoy%20seguro%20de%20qu%C3%A9%20equipo%20necesito%20para%20mi%20espacio%2C%20%C2%BFme%20pueden%20asesorar%3F" 
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-flex items-center space-x-3 px-8 py-3.5 rounded-full bg-white/5 border border-velora-champagne/40 hover:border-velora-champagne hover:bg-velora-champagne/10 text-xs uppercase tracking-widest font-semibold text-velora-champagneLight transition-all"
-        >
-          <i class="fab fa-whatsapp text-base text-velora-champagne"></i>
-          <span>¿Qué equipo necesito?</span>
-        </a>
-      </div>
+    <!-- Equipos de Aromatización -->
+    <section id="equipos" class="py-24 bg-velora-night border-t border-white/5 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-    </div>
-  </section>
-
-  <!-- Todo Incluido -->
-  <section class="py-24 border-t border-white/5 relative bg-velora-obsidian">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="bento-card rounded-3xl p-8 sm:p-14 border border-white/10 bg-gradient-to-b from-velora-night via-velora-card to-velora-obsidian relative overflow-hidden">
-        
-        <!-- Glow accents -->
-        <div class="absolute -right-20 -top-20 w-80 h-80 bg-velora-champagne/10 rounded-full blur-3xl pointer-events-none"></div>
-
-        <div class="max-w-3xl mb-12">
-          <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block mb-3">Servicio Integral Llave en Mano</span>
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block mb-3">Sistemas
+            Profesionales</span>
           <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">
-            Nosotros nos encargamos <span class="gold-gradient-text">de todo</span>
+            Un equipo para <span class="gold-gradient-text">cada espacio</span>
           </h2>
           <p class="text-velora-muted text-base">
-            Olvídate de comprar aparatos costosos, preocuparte por repuestos o manipular químicos. Tu membresía cubre cada fase del servicio.
+            Seleccionamos el sistema ideal de acuerdo con los metros cuadrados, ventilación, distribución y necesidades
+            operativas de tu negocio.
           </p>
         </div>
 
-        <!-- 8 Bullet Points Grid with Champagne Icons -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          
-          <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-            <div class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
-              <i class="fas fa-tools text-xs"></i>
-            </div>
+        <!-- Equipment Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+
+          <!-- Tier 1: Equipo Chico -->
+          <div class="bento-card rounded-3xl p-8 flex flex-col justify-between relative">
             <div>
-              <h3 class="text-sm font-semibold text-white">Instalación y configuración</h3>
-              <p class="text-xs text-velora-muted mt-1">Calibrado milimétrico según tus flujos de aire.</p>
+              <div class="equipment-symbol"><i class="fas fa-wind" aria-hidden="true"></i><span>DIFUSIÓN EN FRÍO</span>
+              </div>
+
+
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="text-2xl font-serif font-bold text-white">Equipo Chico</h3>
+                <span
+                  class="text-xs font-semibold px-2.5 py-1 rounded bg-white/5 text-velora-champagne border border-white/10">Hasta
+                  65 m²</span>
+              </div>
+
+              <p class="text-xs text-velora-muted mb-6 leading-relaxed">
+                Ideal para consultorios médicos, oficinas privadas, boutiques selectas y áreas de recepción compactas.
+              </p>
+
+              <ul class="space-y-3 mb-8 text-xs text-slate-300">
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-velora-champagne text-[11px]"></i>
+                  <span>Micro-nebulización silenciosa</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-velora-champagne text-[11px]"></i>
+                  <span>Programación digital inteligente</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-velora-champagne text-[11px]"></i>
+                  <span>Insumo y mantenimiento 100% incluido</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+
+              <a href="https://wa.me/526145989483?text=Hola%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20el%20Equipo%20Chico%20de%2065m2."
+                target="_blank" rel="noopener noreferrer"
+                class="w-full py-3 text-center text-xs font-semibold uppercase tracking-wider text-white border border-white/20 rounded-xl hover:border-velora-champagne hover:bg-velora-champagne/10 transition-all block">
+                Solicitar este equipo
+              </a>
             </div>
           </div>
 
-          <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-            <div class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
-              <i class="fas fa-repeat text-xs"></i>
+          <!-- Tier 2: Equipo Mediano (Featured) -->
+          <div
+            class="bento-card rounded-3xl p-8 flex flex-col justify-between relative border-velora-champagne/40 shadow-2xl scale-[1.02] bg-gradient-to-b from-velora-card to-velora-night">
+
+            <div
+              class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-velora-champagne to-velora-champagneDark text-velora-obsidian font-bold text-[10px] tracking-widest uppercase shadow-md">
+              Más Solicitado
             </div>
+
             <div>
-              <h3 class="text-sm font-semibold text-white">Cambio mensual de esencia</h3>
-              <p class="text-xs text-velora-muted mt-1">Visita puntual y recarga sin interrupciones.</p>
+              <div class="equipment-symbol"><i class="fas fa-wind" aria-hidden="true"></i><span>DIFUSIÓN EN FRÍO</span>
+              </div>
+
+
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="text-2xl font-serif font-bold text-white">Equipo Mediano</h3>
+                <span
+                  class="text-xs font-semibold px-2.5 py-1 rounded bg-velora-champagne/20 text-velora-champagne border border-velora-champagne/30">Hasta
+                  120 m²</span>
+              </div>
+
+              <p class="text-xs text-velora-muted mb-6 leading-relaxed">
+                Ideal para restaurantes, recepciones corporativas, salas de venta, spas y pisos de oficinas completos.
+              </p>
+
+              <ul class="space-y-3 mb-8 text-xs text-slate-200">
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-velora-champagne text-[11px]"></i>
+                  <span>Dispersión homogénea constante</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-velora-champagne text-[11px]"></i>
+                  <span>Ciclos programables por hora y día</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-velora-champagne text-[11px]"></i>
+                  <span>Recargas y calibración mensual incluida</span>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+
+              <a href="https://wa.me/526145989483?text=Hola%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20el%20Equipo%20Mediano%20de%20120m2."
+                target="_blank" rel="noopener noreferrer"
+                class="w-full py-3.5 text-center text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-gradient-to-r from-velora-champagneLight via-velora-champagne to-velora-champagneDark rounded-xl shadow-lg shadow-velora-champagne/20 hover:opacity-95 transition-all block">
+                Solicitar este equipo
+              </a>
             </div>
           </div>
 
-          <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-            <div class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
-              <i class="fas fa-droplet text-xs"></i>
-            </div>
+          <!-- Tier 3: Equipo Grande -->
+          <div class="bento-card rounded-3xl p-8 flex flex-col justify-between relative">
             <div>
-              <h3 class="text-sm font-semibold text-white">Variedad de fragancias</h3>
-              <p class="text-xs text-velora-muted mt-1">Catálogo de perfumería fina a tu disposición.</p>
-            </div>
-          </div>
+              <div class="equipment-symbol"><i class="fas fa-wind" aria-hidden="true"></i><span>DIFUSIÓN EN FRÍO</span>
+              </div>
 
-          <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-            <div class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
-              <i class="fas fa-shield-halved text-xs"></i>
-            </div>
-            <div>
-              <h3 class="text-sm font-semibold text-white">Mantenimiento preventivo</h3>
-              <p class="text-xs text-velora-muted mt-1">Limpieza periódica para una difusión pura.</p>
-            </div>
-          </div>
 
-          <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-            <div class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
-              <i class="fas fa-arrows-rotate text-xs"></i>
-            </div>
-            <div>
-              <h3 class="text-sm font-semibold text-white">Reemplazo sin costo</h3>
-              <p class="text-xs text-velora-muted mt-1">Sustitución inmediata ante cualquier falla técnica.</p>
-            </div>
-          </div>
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="text-2xl font-serif font-bold text-white">Equipo Grande</h3>
+                <span
+                  class="text-xs font-semibold px-2.5 py-1 rounded bg-white/5 text-velora-champagne border border-white/10">Hasta
+                  250 m²</span>
+              </div>
 
-          <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-            <div class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
-              <i class="fas fa-sliders text-xs"></i>
-            </div>
-            <div>
-              <h3 class="text-sm font-semibold text-white">Asesoría de intensidad</h3>
-              <p class="text-xs text-velora-muted mt-1">Ajustes según temporadas y rotación de clientes.</p>
-            </div>
-          </div>
+              <p class="text-xs text-velora-muted mb-6 leading-relaxed">
+                Ideal para hoteles, gimnasios, agencias automotrices, salones de eventos y grandes superficies
+                comerciales.
+              </p>
 
-          <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-            <div class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
-              <i class="fas fa-user-tie text-xs"></i>
+              <ul class="space-y-3 mb-8 text-xs text-slate-300">
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-velora-champagne text-[11px]"></i>
+                  <span>Conexión a ductos de clima o difusión directa</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-velora-champagne text-[11px]"></i>
+                  <span>Máxima cobertura con flujo ultra-fino</span>
+                </li>
+                <li class="flex items-center space-x-2">
+                  <i class="fas fa-check text-velora-champagne text-[11px]"></i>
+                  <span>Soporte prioritario y reposición express</span>
+                </li>
+              </ul>
             </div>
-            <div>
-              <h3 class="text-sm font-semibold text-white">Atención personalizada</h3>
-              <p class="text-xs text-velora-muted mt-1">Asesor dedicado siempre disponible en Chihuahua.</p>
-            </div>
-          </div>
 
-          <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
-            <div class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
-              <i class="fas fa-hand-holding-heart text-xs"></i>
-            </div>
             <div>
-              <h3 class="text-sm font-semibold text-white">Sin costos ocultos</h3>
-              <p class="text-xs text-velora-muted mt-1">Claridad contractual y transparencia absoluta.</p>
+
+              <a href="https://wa.me/526145989483?text=Hola%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20el%20Equipo%20Grande%20de%20250m2."
+                target="_blank" rel="noopener noreferrer"
+                class="w-full py-3 text-center text-xs font-semibold uppercase tracking-wider text-white border border-white/20 rounded-xl hover:border-velora-champagne hover:bg-velora-champagne/10 transition-all block">
+                Solicitar este equipo
+              </a>
             </div>
           </div>
 
         </div>
 
-        <!-- Highlight Phrase -->
-        <div class="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6">
-          <p class="font-serif text-xl sm:text-2xl text-velora-champagne font-medium tracking-wide text-center md:text-left">
-            “Tú disfrutas el ambiente. VELORA se encarga del resto.”
-          </p>
-          <a 
-            href="#prueba-gratis" 
-            class="px-6 py-3 rounded-full text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-velora-champagne hover:bg-velora-champagneLight transition-colors shrink-0"
-          >
-            Quiero iniciar mi prueba
+        <!-- Equipment Advisor CTA -->
+        <div class="mt-12 text-center max-w-xl mx-auto">
+          <a href="https://wa.me/526145989483?text=Hola%2C%20no%20estoy%20seguro%20de%20qu%C3%A9%20equipo%20necesito%20para%20mi%20espacio%2C%20%C2%BFme%20pueden%20asesorar%3F"
+            target="_blank" rel="noopener noreferrer"
+            class="inline-flex items-center space-x-3 px-8 py-3.5 rounded-full bg-white/5 border border-velora-champagne/40 hover:border-velora-champagne hover:bg-velora-champagne/10 text-xs uppercase tracking-widest font-semibold text-velora-champagneLight transition-all">
+            <i class="fab fa-whatsapp text-base text-velora-champagne"></i>
+            <span>¿Qué equipo necesito?</span>
           </a>
         </div>
 
       </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- Todo Incluido -->
+    <section class="py-24 border-t border-white/5 relative bg-velora-obsidian">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-  <!-- Proceso de Contratación -->
-  <section class="py-24 border-t border-white/5 relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block mb-3">Paso a Paso</span>
-        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">
-          Transforma tu espacio <span class="gold-gradient-text">en cuatro pasos</span>
-        </h2>
-        <p class="text-velora-muted text-base">
-          Un proceso ágil, sin fricción y respaldado por una prueba en tus propias instalaciones.
-        </p>
-      </div>
+        <div
+          class="bento-card rounded-3xl p-8 sm:p-14 border border-white/10 bg-gradient-to-b from-velora-night via-velora-card to-velora-obsidian relative overflow-hidden">
 
-      <!-- 4 Steps Flow -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
-        
-        <!-- Step 1 -->
-        <div class="bento-card p-6 rounded-2xl relative">
-          <div class="text-3xl font-serif font-extrabold text-velora-champagne/40 mb-3">01</div>
-          <h3 class="text-base font-serif font-bold text-white mb-2">Conocemos tu negocio</h3>
-          <p class="text-xs text-velora-muted leading-relaxed">
-            Analizamos el tamaño, la distribución arquitectónica, la actividad y la experiencia que deseas proyectar.
-          </p>
-        </div>
-
-        <!-- Step 2 -->
-        <div class="bento-card p-6 rounded-2xl relative">
-          <div class="text-3xl font-serif font-extrabold text-velora-champagne/40 mb-3">02</div>
-          <h3 class="text-base font-serif font-bold text-white mb-2">Elegimos el aroma</h3>
-          <p class="text-xs text-velora-muted leading-relaxed">
-            Te guiamos a través de nuestra selección exclusiva para encontrar la fragancia que armonice con la personalidad de tu marca.
-          </p>
-        </div>
-
-        <!-- Step 3 -->
-        <div class="bento-card p-6 rounded-2xl relative border-velora-champagne/30">
-          <div class="text-3xl font-serif font-extrabold text-velora-champagne mb-3">03</div>
-          <h3 class="text-base font-serif font-bold text-velora-champagneLight mb-2">Realizamos la prueba</h3>
-          <p class="text-xs text-velora-muted leading-relaxed">
-            Instalamos el equipo durante dos días enteros en tu espacio, 100% gratis y sin ningún compromiso.
-          </p>
-        </div>
-
-        <!-- Step 4 -->
-        <div class="bento-card p-6 rounded-2xl relative">
-          <div class="text-3xl font-serif font-extrabold text-velora-champagne/40 mb-3">04</div>
-          <h3 class="text-base font-serif font-bold text-white mb-2">Activamos tu servicio</h3>
-          <p class="text-xs text-velora-muted leading-relaxed">
-            Si te encanta el resultado, formalizamos tu plan mensual y nos encargamos de todo el ciclo de mantenimiento y recargas.
-          </p>
-        </div>
-
-      </div>
-
-      <div class="mt-12 text-center">
-        <a 
-          href="#prueba-gratis" 
-          class="inline-flex items-center px-8 py-4 text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-gradient-to-r from-velora-champagneLight to-velora-champagne rounded-full shadow-lg shadow-velora-champagne/15 hover:opacity-95 transition-all"
-        >
-          Quiero probar VELORA
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Prueba Gratuita (Interactive High-Conversion Section) -->
-  <section id="prueba-gratis" class="py-24 bg-velora-night/80 border-t border-white/5 relative">
-    
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        
-        <!-- Left Side: Pitch -->
-        <div class="lg:col-span-5 space-y-6">
-          <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full border border-velora-champagne/30 bg-velora-champagne/10">
-            <span class="w-2 h-2 rounded-full bg-velora-champagne animate-ping"></span>
-            <span class="text-xs uppercase tracking-widest text-velora-champagne font-semibold">2 DÍAS CORTESÍA COMPLETA</span>
+          <!-- Glow accents -->
+          <div
+            class="absolute -right-20 -top-20 w-80 h-80 bg-velora-champagne/10 rounded-full blur-3xl pointer-events-none">
           </div>
 
-          <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white leading-tight">
-            Comprueba el poder de <span class="gold-gradient-text">un aroma</span>
-          </h2>
-
-          <p class="text-slate-300 text-base leading-relaxed">
-            Disfruta de una prueba gratuita durante dos días y descubre cómo puede cambiar la percepción, energía y experiencia dentro de tu negocio.
-          </p>
-
-          <div class="space-y-3 pt-2">
-            <div class="flex items-center space-x-3 text-sm text-velora-warmWhite">
-              <i class="fas fa-check-circle text-velora-champagne"></i>
-              <span>Sin costo alguno</span>
-            </div>
-            <div class="flex items-center space-x-3 text-sm text-velora-warmWhite">
-              <i class="fas fa-check-circle text-velora-champagne"></i>
-              <span>Sin compromiso contractual</span>
-            </div>
-            <div class="flex items-center space-x-3 text-sm text-velora-warmWhite">
-              <i class="fas fa-check-circle text-velora-champagne"></i>
-              <span>Adaptada a las dimensiones de tu espacio</span>
-            </div>
+          <div class="max-w-3xl mb-12">
+            <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block mb-3">Servicio
+              Integral Llave en Mano</span>
+            <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">
+              Nosotros nos encargamos <span class="gold-gradient-text">de todo</span>
+            </h2>
+            <p class="text-velora-muted text-base">
+              Olvídate de comprar aparatos costosos, preocuparte por repuestos o manipular químicos. Tu membresía cubre
+              cada fase del servicio.
+            </p>
           </div>
 
-          <div class="p-4 rounded-xl bg-white/5 border border-white/10 text-xs text-velora-muted">
-            <i class="fas fa-location-dot text-velora-champagne mr-1"></i> Disponible en Chihuahua, México y zonas conurbadas.
-          </div>
-        </div>
+          <!-- 8 Bullet Points Grid with Champagne Icons -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
 
-        <!-- Right Side: Lead Form -->
-        <div class="lg:col-span-7">
-          <div class="bento-card p-8 sm:p-10 rounded-3xl border border-velora-champagne/30 bg-velora-card">
-            
-            <h3 class="text-xl font-serif font-semibold text-white mb-2">Solicita tu prueba de 2 días</h3>
-            <p class="text-xs text-velora-muted mb-6">Completa este breve formulario y un asesor se pondrá en contacto contigo hoy mismo.</p>
-
-            <form id="leadForm" class="space-y-4">
-              
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <!-- Nombre -->
-                <div>
-                  <label for="nombre" class="block text-xs uppercase tracking-wider text-slate-300 font-medium mb-1.5">Tu Nombre *</label>
-                  <input 
-                    type="text" 
-                    id="nombre" 
-                    required 
-                    placeholder="Ej. Valeria Montes" 
-                    class="w-full px-4 py-3 rounded-xl bg-velora-obsidian border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-velora-champagne text-sm transition-colors"
-                  >
-                </div>
-
-                <!-- Empresa -->
-                <div>
-                  <label for="empresa" class="block text-xs uppercase tracking-wider text-slate-300 font-medium mb-1.5">Empresa / Negocio *</label>
-                  <input 
-                    type="text" 
-                    id="empresa" 
-                    required 
-                    placeholder="Ej. Hotel Altea / Boutique Lumi" 
-                    class="w-full px-4 py-3 rounded-xl bg-velora-obsidian border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-velora-champagne text-sm transition-colors"
-                  >
-                </div>
+            <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
+              <div
+                class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
+                <i class="fas fa-tools text-xs"></i>
               </div>
+              <div>
+                <h3 class="text-sm font-semibold text-white">Instalación y configuración</h3>
+                <p class="text-xs text-velora-muted mt-1">Calibrado milimétrico según tus flujos de aire.</p>
+              </div>
+            </div>
 
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <!-- Teléfono / WhatsApp -->
-                <div>
-                  <label for="telefono" class="block text-xs uppercase tracking-wider text-slate-300 font-medium mb-1.5">Teléfono / WhatsApp *</label>
-                  <input 
-                    type="tel" 
-                    id="telefono" 
-                    required 
-                    placeholder="Ej. 614 123 4567" 
-                    class="w-full px-4 py-3 rounded-xl bg-velora-obsidian border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-velora-champagne text-sm transition-colors"
-                  >
+            <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
+              <div
+                class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
+                <i class="fas fa-repeat text-xs"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold text-white">Cambio mensual de esencia</h3>
+                <p class="text-xs text-velora-muted mt-1">Visita puntual y recarga sin interrupciones.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
+              <div
+                class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
+                <i class="fas fa-droplet text-xs"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold text-white">Variedad de fragancias</h3>
+                <p class="text-xs text-velora-muted mt-1">Catálogo de perfumería fina a tu disposición.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
+              <div
+                class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
+                <i class="fas fa-shield-halved text-xs"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold text-white">Mantenimiento preventivo</h3>
+                <p class="text-xs text-velora-muted mt-1">Limpieza periódica para una difusión pura.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
+              <div
+                class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
+                <i class="fas fa-arrows-rotate text-xs"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold text-white">Reemplazo sin costo</h3>
+                <p class="text-xs text-velora-muted mt-1">Sustitución inmediata ante cualquier falla técnica.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
+              <div
+                class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
+                <i class="fas fa-sliders text-xs"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold text-white">Asesoría de intensidad</h3>
+                <p class="text-xs text-velora-muted mt-1">Ajustes según temporadas y rotación de clientes.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
+              <div
+                class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
+                <i class="fas fa-user-tie text-xs"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold text-white">Atención personalizada</h3>
+                <p class="text-xs text-velora-muted mt-1">Asesor dedicado siempre disponible en Chihuahua.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-4 p-4 rounded-xl bg-white/[0.02] border border-white/5">
+              <div
+                class="w-8 h-8 rounded-lg bg-velora-champagne/10 flex items-center justify-center text-velora-champagne shrink-0 mt-0.5">
+                <i class="fas fa-hand-holding-heart text-xs"></i>
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold text-white">Sin costos ocultos</h3>
+                <p class="text-xs text-velora-muted mt-1">Claridad contractual y transparencia absoluta.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Highlight Phrase -->
+          <div class="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-6">
+            <p
+              class="font-serif text-xl sm:text-2xl text-velora-champagne font-medium tracking-wide text-center md:text-left">
+              “Tú disfrutas el ambiente. VELORA se encarga del resto.”
+            </p>
+            <a href="#prueba-gratis"
+              class="px-6 py-3 rounded-full text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-velora-champagne hover:bg-velora-champagneLight transition-colors shrink-0">
+              Quiero iniciar mi prueba
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Proceso de Contratación -->
+    <section class="py-24 border-t border-white/5 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block mb-3">Paso a
+            Paso</span>
+          <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">
+            Transforma tu espacio <span class="gold-gradient-text">en cuatro pasos</span>
+          </h2>
+          <p class="text-velora-muted text-base">
+            Un proceso ágil, sin fricción y respaldado por una prueba en tus propias instalaciones.
+          </p>
+        </div>
+
+        <!-- 4 Steps Flow -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
+
+          <!-- Step 1 -->
+          <div class="bento-card p-6 rounded-2xl relative">
+            <div class="text-3xl font-serif font-extrabold text-velora-champagne/40 mb-3">01</div>
+            <h3 class="text-base font-serif font-bold text-white mb-2">Conocemos tu negocio</h3>
+            <p class="text-xs text-velora-muted leading-relaxed">
+              Analizamos el tamaño, la distribución arquitectónica, la actividad y la experiencia que deseas proyectar.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bento-card p-6 rounded-2xl relative">
+            <div class="text-3xl font-serif font-extrabold text-velora-champagne/40 mb-3">02</div>
+            <h3 class="text-base font-serif font-bold text-white mb-2">Elegimos el aroma</h3>
+            <p class="text-xs text-velora-muted leading-relaxed">
+              Te guiamos a través de nuestra selección exclusiva para encontrar la fragancia que armonice con la
+              personalidad de tu marca.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bento-card p-6 rounded-2xl relative border-velora-champagne/30">
+            <div class="text-3xl font-serif font-extrabold text-velora-champagne mb-3">03</div>
+            <h3 class="text-base font-serif font-bold text-velora-champagneLight mb-2">Realizamos la prueba</h3>
+            <p class="text-xs text-velora-muted leading-relaxed">
+              Instalamos el equipo durante dos días enteros en tu espacio, 100% gratis y sin ningún compromiso.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="bento-card p-6 rounded-2xl relative">
+            <div class="text-3xl font-serif font-extrabold text-velora-champagne/40 mb-3">04</div>
+            <h3 class="text-base font-serif font-bold text-white mb-2">Activamos tu servicio</h3>
+            <p class="text-xs text-velora-muted leading-relaxed">
+              Si te encanta el resultado, formalizamos tu plan mensual y nos encargamos de todo el ciclo de
+              mantenimiento y recargas.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="mt-12 text-center">
+          <a href="#prueba-gratis"
+            class="inline-flex items-center px-8 py-4 text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-gradient-to-r from-velora-champagneLight to-velora-champagne rounded-full shadow-lg shadow-velora-champagne/15 hover:opacity-95 transition-all">
+            Quiero probar VELORA
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Prueba Gratuita (Interactive High-Conversion Section) -->
+    <section id="prueba-gratis" class="py-24 bg-velora-night/80 border-t border-white/5 relative">
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+          <!-- Left Side: Pitch -->
+          <div class="lg:col-span-5 space-y-6">
+            <div
+              class="inline-flex items-center space-x-2 px-3 py-1 rounded-full border border-velora-champagne/30 bg-velora-champagne/10">
+              <span class="w-2 h-2 rounded-full bg-velora-champagne animate-ping"></span>
+              <span class="text-xs uppercase tracking-widest text-velora-champagne font-semibold">2 DÍAS CORTESÍA
+                COMPLETA</span>
+            </div>
+
+            <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white leading-tight">
+              Comprueba el poder de <span class="gold-gradient-text">un aroma</span>
+            </h2>
+
+            <p class="text-slate-300 text-base leading-relaxed">
+              Disfruta de una prueba gratuita durante dos días y descubre cómo puede cambiar la percepción, energía y
+              experiencia dentro de tu negocio.
+            </p>
+
+            <div class="space-y-3 pt-2">
+              <div class="flex items-center space-x-3 text-sm text-velora-warmWhite">
+                <i class="fas fa-check-circle text-velora-champagne"></i>
+                <span>Sin costo alguno</span>
+              </div>
+              <div class="flex items-center space-x-3 text-sm text-velora-warmWhite">
+                <i class="fas fa-check-circle text-velora-champagne"></i>
+                <span>Sin compromiso contractual</span>
+              </div>
+              <div class="flex items-center space-x-3 text-sm text-velora-warmWhite">
+                <i class="fas fa-check-circle text-velora-champagne"></i>
+                <span>Adaptada a las dimensiones de tu espacio</span>
+              </div>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white/5 border border-white/10 text-xs text-velora-muted">
+              <i class="fas fa-location-dot text-velora-champagne mr-1"></i> Disponible en Chihuahua, México y zonas
+              conurbadas.
+            </div>
+          </div>
+
+          <!-- Right Side: Lead Form -->
+          <div class="lg:col-span-7">
+            <div class="bento-card p-8 sm:p-10 rounded-3xl border border-velora-champagne/30 bg-velora-card">
+
+              <h3 class="text-xl font-serif font-semibold text-white mb-2">Solicita tu prueba de 2 días</h3>
+              <p class="text-xs text-velora-muted mb-6">Completa este breve formulario y un asesor se pondrá en contacto
+                contigo hoy mismo.</p>
+
+              <form id="leadForm" class="space-y-4" action="https://formsubmit.co/velorascent1@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Nueva solicitud de prueba gratuita - VELORA">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="">
+                <input type="hidden" name="_autoresponse"
+                  value="¡Gracias por tu interés en VELORA! Hemos recibido tu solicitud de prueba gratuita. Un asesor se pondrá en contacto contigo muy pronto.">
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <!-- Nombre -->
+                  <div>
+                    <label for="nombre"
+                      class="block text-xs uppercase tracking-wider text-slate-300 font-medium mb-1.5">Tu Nombre
+                      *</label>
+                    <input type="text" id="nombre" name="Nombre" required placeholder="Ej. Valeria Montes"
+                      class="w-full px-4 py-3 rounded-xl bg-velora-obsidian border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-velora-champagne text-sm transition-colors">
+                  </div>
+
+                  <!-- Empresa -->
+                  <div>
+                    <label for="empresa"
+                      class="block text-xs uppercase tracking-wider text-slate-300 font-medium mb-1.5">Empresa / Negocio
+                      *</label>
+                    <input type="text" id="empresa" name="Empresa" required placeholder="Ej. Hotel Altea / Boutique Lumi"
+                      class="w-full px-4 py-3 rounded-xl bg-velora-obsidian border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-velora-champagne text-sm transition-colors">
+                  </div>
                 </div>
 
-                <!-- Tipo de negocio -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <!-- Teléfono / WhatsApp -->
+                  <div>
+                    <label for="telefono"
+                      class="block text-xs uppercase tracking-wider text-slate-300 font-medium mb-1.5">Teléfono /
+                      WhatsApp *</label>
+                    <input type="tel" id="telefono" name="Telefono" required placeholder="Ej. 614 598 9483"
+                      class="w-full px-4 py-3 rounded-xl bg-velora-obsidian border border-white/15 text-white placeholder-slate-500 focus:outline-none focus:border-velora-champagne text-sm transition-colors">
+                  </div>
+
+                  <!-- Tipo de negocio -->
+                  <div>
+                    <label for="tipoNegocio"
+                      class="block text-xs uppercase tracking-wider text-slate-300 font-medium mb-1.5">Tipo de Negocio
+                      *</label>
+                    <select id="tipoNegocio" name="Tipo de Negocio" required
+                      class="w-full px-4 py-3 rounded-xl bg-velora-obsidian border border-white/15 text-white focus:outline-none focus:border-velora-champagne text-sm transition-colors">
+                      <option value="" disabled selected>Selecciona tu rubro</option>
+                      <option value="Hotel">Hotel / Hospitalidad</option>
+                      <option value="Restaurante">Restaurante / Bar</option>
+                      <option value="Oficina">Oficina Corporativa</option>
+                      <option value="Boutique">Boutique / Tienda Retail</option>
+                      <option value="Consultorio">Consultorio / Clínica</option>
+                      <option value="Gimnasio">Gimnasio / Wellness</option>
+                      <option value="SalonSpa">Salón de Belleza / Spa</option>
+                      <option value="AgenciaAutomotriz">Agencia Automotriz</option>
+                      <option value="Otro">Otro giro comercial</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Tamaño aproximado del espacio -->
                 <div>
-                  <label for="tipoNegocio" class="block text-xs uppercase tracking-wider text-slate-300 font-medium mb-1.5">Tipo de Negocio *</label>
-                  <select 
-                    id="tipoNegocio" 
-                    required 
-                    class="w-full px-4 py-3 rounded-xl bg-velora-obsidian border border-white/15 text-white focus:outline-none focus:border-velora-champagne text-sm transition-colors"
-                  >
-                    <option value="" disabled selected>Selecciona tu rubro</option>
-                    <option value="Hotel">Hotel / Hospitalidad</option>
-                    <option value="Restaurante">Restaurante / Bar</option>
-                    <option value="Oficina">Oficina Corporativa</option>
-                    <option value="Boutique">Boutique / Tienda Retail</option>
-                    <option value="Consultorio">Consultorio / Clínica</option>
-                    <option value="Gimnasio">Gimnasio / Wellness</option>
-                    <option value="SalonSpa">Salón de Belleza / Spa</option>
-                    <option value="AgenciaAutomotriz">Agencia Automotriz</option>
-                    <option value="Otro">Otro giro comercial</option>
+                  <label for="tamano"
+                    class="block text-xs uppercase tracking-wider text-slate-300 font-medium mb-1.5">Tamaño aproximado
+                    del espacio *</label>
+                  <select id="tamano" name="Tamaño del Espacio" required
+                    class="w-full px-4 py-3 rounded-xl bg-velora-obsidian border border-white/15 text-white focus:outline-none focus:border-velora-champagne text-sm transition-colors">
+                    <option value="" disabled selected>Selecciona los metros cuadrados aproximados</option>
+                    <option value="Menos de 65 m²">Menos de 65 m² (Espacio pequeño / Consultorio / Oficina)</option>
+                    <option value="65 a 120 m²">65 a 120 m² (Espacio mediano / Restaurante / Recepción)</option>
+                    <option value="120 a 250 m²">120 a 250 m² (Espacio grande / Hotel / Sala de exhibición)</option>
+                    <option value="Más de 250 m²">Más de 250 m² (Proyecto multi-zona o macro-instalación)</option>
                   </select>
                 </div>
+
+                <div class="pt-2">
+                  <button type="submit"
+                    class="w-full py-4 text-xs sm:text-sm font-semibold uppercase tracking-wider text-velora-obsidian bg-gradient-to-r from-velora-champagneLight via-velora-champagne to-velora-champagneDark rounded-xl shadow-lg shadow-velora-champagne/20 hover:shadow-velora-champagne/40 transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center space-x-2">
+                    <span>Solicitar prueba gratis</span>
+                    <i class="fas fa-arrow-right text-xs"></i>
+                  </button>
+                </div>
+
+                <p class="text-[11px] text-velora-muted text-center pt-2">
+                  Tus datos se enviarán a nuestro equipo. También podrás confirmarlo por WhatsApp.
+                </p>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Nuestras Líneas -->
+    <section id="lineas" class="py-24 border-t border-white/5 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block mb-3">04 / Nuestras
+            líneas</span>
+          <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">
+            Un universo <span class="gold-gradient-text">de aromas</span>
+          </h2>
+          <p class="text-velora-muted text-base">
+            Una misma esencia. Distintas formas de acompañarte.
+          </p>
+        </div>
+
+        <!-- 3 Lines Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <!-- Línea 1: VELORA Ambiental (Disponible) -->
+          <div
+            class="bento-card rounded-3xl p-8 flex flex-col justify-between border-velora-champagne/40 bg-gradient-to-b from-velora-card to-velora-stone/40">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span
+                  class="text-xs font-semibold px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 tracking-wider">
+                  DISPONIBLE
+                </span>
+                <i class="fas fa-building text-velora-champagne text-lg"></i>
               </div>
 
-              <!-- Tamaño aproximado del espacio -->
-              <div>
-                <label for="tamano" class="block text-xs uppercase tracking-wider text-slate-300 font-medium mb-1.5">Tamaño aproximado del espacio *</label>
-                <select 
-                  id="tamano" 
-                  required 
-                  class="w-full px-4 py-3 rounded-xl bg-velora-obsidian border border-white/15 text-white focus:outline-none focus:border-velora-champagne text-sm transition-colors"
-                >
-                  <option value="" disabled selected>Selecciona los metros cuadrados aproximados</option>
-                  <option value="Menos de 65 m²">Menos de 65 m² (Espacio pequeño / Consultorio / Oficina)</option>
-                  <option value="65 a 120 m²">65 a 120 m² (Espacio mediano / Restaurante / Recepción)</option>
-                  <option value="120 a 250 m²">120 a 250 m² (Espacio grande / Hotel / Sala de exhibición)</option>
-                  <option value="Más de 250 m²">Más de 250 m² (Proyecto multi-zona o macro-instalación)</option>
-                </select>
-              </div>
-
-              <div class="pt-2">
-                <button 
-                  type="submit" 
-                  class="w-full py-4 text-xs sm:text-sm font-semibold uppercase tracking-wider text-velora-obsidian bg-gradient-to-r from-velora-champagneLight via-velora-champagne to-velora-champagneDark rounded-xl shadow-lg shadow-velora-champagne/20 hover:shadow-velora-champagne/40 transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center space-x-2"
-                >
-                  <span>Solicitar prueba gratis</span>
-                  <i class="fas fa-arrow-right text-xs"></i>
-                </button>
-              </div>
-
-              <p class="text-[11px] text-velora-muted text-center pt-2">
-                Prepararemos un mensaje con tus datos. Envíalo en WhatsApp para completar tu solicitud.
+              <h3 class="text-2xl font-serif font-bold text-white mb-3">VELORA Ambiental</h3>
+              <p class="text-sm text-velora-muted leading-relaxed mb-6">
+                Aromatización profesional para negocios y espacios. Sistemas tecnológicos de micro-difusión con
+                curaduría aromática especializada y servicio todo incluido.
               </p>
-            </form>
-
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Nuestras Líneas -->
-  <section id="lineas" class="py-24 border-t border-white/5 relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block mb-3">04 / Nuestras líneas</span>
-        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">
-          Un universo <span class="gold-gradient-text">de aromas</span>
-        </h2>
-        <p class="text-velora-muted text-base">
-          Una misma esencia. Distintas formas de acompañarte.
-        </p>
-      </div>
-
-      <!-- 3 Lines Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        
-        <!-- Línea 1: VELORA Ambiental (Disponible) -->
-        <div class="bento-card rounded-3xl p-8 flex flex-col justify-between border-velora-champagne/40 bg-gradient-to-b from-velora-card to-velora-stone/40">
-          <div>
-            <div class="flex items-center justify-between mb-6">
-              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 tracking-wider">
-                DISPONIBLE
-              </span>
-              <i class="fas fa-building text-velora-champagne text-lg"></i>
             </div>
-            
-            <h3 class="text-2xl font-serif font-bold text-white mb-3">VELORA Ambiental</h3>
-            <p class="text-sm text-velora-muted leading-relaxed mb-6">
-              Aromatización profesional para negocios y espacios. Sistemas tecnológicos de micro-difusión con curaduría aromática especializada y servicio todo incluido.
-            </p>
+
+            <a href="#ambiental"
+              class="w-full py-3 text-center text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-velora-champagne rounded-xl hover:bg-velora-champagneLight transition-colors block">
+              Conocer más
+            </a>
           </div>
 
-          <a 
-            href="#ambiental" 
-            class="w-full py-3 text-center text-xs font-semibold uppercase tracking-wider text-velora-obsidian bg-velora-champagne rounded-xl hover:bg-velora-champagneLight transition-colors block"
-          >
-            Conocer más
-          </a>
-        </div>
+          <!-- Línea 2: VELORA Parfums (Próximamente) -->
+          <div
+            class="bento-card rounded-3xl p-8 flex flex-col justify-between opacity-80 border-white/5 bg-velora-obsidian">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span
+                  class="text-xs font-semibold px-3 py-1 rounded-full bg-white/5 text-velora-muted border border-white/10 tracking-wider">
+                  PRÓXIMAMENTE
+                </span>
+                <i class="fas fa-bottle-droplet text-slate-500 text-lg"></i>
+              </div>
 
-        <!-- Línea 2: VELORA Parfums (Próximamente) -->
-        <div class="bento-card rounded-3xl p-8 flex flex-col justify-between opacity-80 border-white/5 bg-velora-obsidian">
-          <div>
-            <div class="flex items-center justify-between mb-6">
-              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-white/5 text-velora-muted border border-white/10 tracking-wider">
-                PRÓXIMAMENTE
-              </span>
-              <i class="fas fa-bottle-droplet text-slate-500 text-lg"></i>
+              <h3 class="text-2xl font-serif font-bold text-white mb-3">VELORA Parfums</h3>
+              <p class="text-sm text-velora-muted leading-relaxed mb-6">
+                Fragancias creadas para expresar tu esencia. Creaciones olfativas personales de alta perfumería con
+                notas de autor que definen una presencia inolvidable.
+              </p>
             </div>
-            
-            <h3 class="text-2xl font-serif font-bold text-white mb-3">VELORA Parfums</h3>
-            <p class="text-sm text-velora-muted leading-relaxed mb-6">
-              Fragancias creadas para expresar tu esencia. Creaciones olfativas personales de alta perfumería con notas de autor que definen una presencia inolvidable.
-            </p>
-          </div>
 
-          <div class="w-full py-3 text-center text-xs font-semibold uppercase tracking-wider text-slate-500 border border-white/5 rounded-xl cursor-not-allowed bg-white/[0.02]">
-            En desarrollo
-          </div>
-        </div>
-
-        <!-- Línea 3: VELORA Auto (Próximamente) -->
-        <div class="bento-card rounded-3xl p-8 flex flex-col justify-between opacity-80 border-white/5 bg-velora-obsidian">
-          <div>
-            <div class="flex items-center justify-between mb-6">
-              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-white/5 text-velora-muted border border-white/10 tracking-wider">
-                PRÓXIMAMENTE
-              </span>
-              <i class="fas fa-car text-slate-500 text-lg"></i>
+            <div
+              class="w-full py-3 text-center text-xs font-semibold uppercase tracking-wider text-slate-500 border border-white/5 rounded-xl cursor-not-allowed bg-white/[0.02]">
+              En desarrollo
             </div>
-            
-            <h3 class="text-2xl font-serif font-bold text-white mb-3">VELORA Auto</h3>
-            <p class="text-sm text-velora-muted leading-relaxed mb-6">
-              Aromas diseñados para acompañarte en cada trayecto. Sistemas compactos y elegantes que transforman la cabina de tu vehículo en un santuario sensorial.
-            </p>
           </div>
 
-          <div class="w-full py-3 text-center text-xs font-semibold uppercase tracking-wider text-slate-500 border border-white/5 rounded-xl cursor-not-allowed bg-white/[0.02]">
-            En desarrollo
+          <!-- Línea 3: VELORA Auto (Próximamente) -->
+          <div
+            class="bento-card rounded-3xl p-8 flex flex-col justify-between opacity-80 border-white/5 bg-velora-obsidian">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span
+                  class="text-xs font-semibold px-3 py-1 rounded-full bg-white/5 text-velora-muted border border-white/10 tracking-wider">
+                  PRÓXIMAMENTE
+                </span>
+                <i class="fas fa-car text-slate-500 text-lg"></i>
+              </div>
+
+              <h3 class="text-2xl font-serif font-bold text-white mb-3">VELORA Auto</h3>
+              <p class="text-sm text-velora-muted leading-relaxed mb-6">
+                Aromas diseñados para acompañarte en cada trayecto. Sistemas compactos y elegantes que transforman la
+                cabina de tu vehículo en un santuario sensorial.
+              </p>
+            </div>
+
+            <div
+              class="w-full py-3 text-center text-xs font-semibold uppercase tracking-wider text-slate-500 border border-white/5 rounded-xl cursor-not-allowed bg-white/[0.02]">
+              En desarrollo
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="py-24 bg-velora-night/60 border-t border-white/5 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+
+          <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block">05 / Nuestra
+            esencia</span>
+
+          <h2 class="text-3xl sm:text-5xl md:text-6xl font-serif font-bold text-white leading-tight">
+            Creamos experiencias <span class="gold-gradient-text">que permanecen</span>
+          </h2>
+
+          <div class="w-16 h-0.5 bg-velora-champagne/40 mx-auto"></div>
+
+          <p class="text-base sm:text-xl text-slate-300 font-light leading-relaxed">
+            <strong class="text-white font-medium">VELORA</strong> nace con la visión de transformar la relación entre
+            las personas y los aromas. Integramos productos, fragancias y soluciones profesionales para crear
+            experiencias memorables en espacios, personas y vehículos.
+          </p>
+
+          <p class="text-sm sm:text-base text-velora-muted leading-relaxed max-w-2xl mx-auto">
+            Nuestra misión es construir una marca de aromas sólida, innovadora y reconocida por su calidad superior,
+            tecnología de difusión y atención personalizada en cada detalle.
+          </p>
+
+          <!-- Signature Brand Callout -->
+          <div class="pt-8">
+            <div
+              class="p-8 sm:p-12 rounded-3xl bg-gradient-to-r from-velora-stone/30 via-velora-card to-velora-stone/30 border border-velora-champagne/20">
+              <span class="text-xs uppercase tracking-[0.4em] text-velora-champagne block mb-2">Nuestra firma</span>
+              <p class="text-2xl sm:text-4xl font-serif font-bold text-white tracking-wide">
+                VELORA. Aromas que dejan huella.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Cierre y Contacto -->
+    <section id="contacto" class="py-24 border-t border-white/5 relative overflow-hidden">
+
+      <!-- Background ambiance -->
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-velora-champagne/5 rounded-full blur-[140px] pointer-events-none">
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+        <!-- Conversion Banner -->
+        <div class="text-center max-w-3xl mx-auto mb-16">
+          <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-6 leading-tight">
+            Tu espacio ya comunica. <br>
+            <span class="gold-gradient-text">Hagamos que también se recuerde.</span>
+          </h2>
+          <p class="text-slate-300 text-base sm:text-lg mb-8">
+            Solicita una prueba gratuita y encuentra el aroma ideal para tu negocio.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a href="#prueba-gratis"
+              class="w-full sm:w-auto px-8 py-4 text-xs sm:text-sm font-semibold uppercase tracking-wider text-velora-obsidian bg-gradient-to-r from-velora-champagneLight via-velora-champagne to-velora-champagneDark rounded-full shadow-lg shadow-velora-champagne/20 hover:opacity-95 transition-all text-center">
+              Solicitar prueba gratis
+            </a>
+            <a href="https://wa.me/526145989483?text=Hola%2C%20quisiera%20hablar%20con%20un%20asesor%20de%20VELORA%20para%20conocer%20m%C3%A1s%20detalles."
+              target="_blank" rel="noopener noreferrer"
+              class="w-full sm:w-auto px-8 py-4 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white border border-white/20 hover:border-velora-champagne rounded-full hover:bg-white/5 transition-all text-center flex items-center justify-center gap-2">
+              <i class="fab fa-whatsapp text-sm text-velora-champagne"></i>
+              <span>Hablar con un asesor</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Directory Bento Box -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-12 border-t border-white/10 text-sm">
+
+          <!-- Contact item 1 -->
+          <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
+            <div
+              class="w-10 h-10 rounded-xl bg-velora-champagne/10 flex items-center justify-center text-velora-champagne mb-4">
+              <i class="fab fa-whatsapp text-lg"></i>
+            </div>
+            <span class="text-xs uppercase tracking-wider text-velora-muted block mb-1">WhatsApp Directo</span>
+            <a href="https://wa.me/526145989483" target="_blank" rel="noopener noreferrer"
+              class="text-white hover:text-velora-champagne font-medium transition-colors">
+              +52 614 598 9483
+            </a>
+          </div>
+
+          <!-- Contact item 2 -->
+          <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
+            <div
+              class="w-10 h-10 rounded-xl bg-velora-champagne/10 flex items-center justify-center text-velora-champagne mb-4">
+              <i class="fas fa-phone text-base"></i>
+            </div>
+            <span class="text-xs uppercase tracking-wider text-velora-muted block mb-1">Teléfono</span>
+            <a href="tel:+526145989483" class="text-white hover:text-velora-champagne font-medium transition-colors">
+              614 598 9483
+            </a>
+          </div>
+
+          <!-- Contact item 3 -->
+          <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
+            <div
+              class="w-10 h-10 rounded-xl bg-velora-champagne/10 flex items-center justify-center text-velora-champagne mb-4">
+              <i class="fas fa-envelope text-base"></i>
+            </div>
+            <span class="text-xs uppercase tracking-wider text-velora-muted block mb-1">Correo Electrónico</span>
+            <a href="mailto:velorascent1@gmail.com"
+              class="text-white hover:text-velora-champagne font-medium transition-colors">
+              velorascent1@gmail.com
+            </a>
+          </div>
+
+          <!-- Contact item 4 -->
+          <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
+            <div
+              class="w-10 h-10 rounded-xl bg-velora-champagne/10 flex items-center justify-center text-velora-champagne mb-4">
+              <i class="fas fa-location-dot text-base"></i>
+            </div>
+            <span class="text-xs uppercase tracking-wider text-velora-muted block mb-1">Ubicación</span>
+            <p class="text-white font-medium">Chihuahua, Chihuahua, México</p>
+          </div>
+
+        </div>
+        <!-- Footer Bottom -->
+        <div
+          class="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-velora-muted">
+          <div class="flex items-center space-x-2">
+            <span class="font-serif tracking-widest text-white font-bold text-sm">VELORA</span>
+            <span>&copy; 2026. Todos los derechos reservados.</span>
+          </div>
+
+          <!-- Social Icons -->
+          <div class="flex items-center space-x-6">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+              class="hover:text-velora-champagne transition-colors" aria-label="Instagram">
+              <i class="fab fa-instagram text-base"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+              class="hover:text-velora-champagne transition-colors" aria-label="Facebook">
+              <i class="fab fa-facebook-f text-base"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              class="hover:text-velora-champagne transition-colors" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in text-base"></i>
+            </a>
           </div>
         </div>
 
       </div>
-
-    </div>
-  </section>
-
-  <!-- Nosotros -->
-  <section id="nosotros" class="py-24 bg-velora-night/60 border-t border-white/5 relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="max-w-4xl mx-auto text-center space-y-8">
-        
-        <span class="text-xs uppercase tracking-[0.25em] text-velora-champagne font-semibold block">05 / Nuestra esencia</span>
-
-        <h2 class="text-3xl sm:text-5xl md:text-6xl font-serif font-bold text-white leading-tight">
-          Creamos experiencias <span class="gold-gradient-text">que permanecen</span>
-        </h2>
-
-        <div class="w-16 h-0.5 bg-velora-champagne/40 mx-auto"></div>
-
-        <p class="text-base sm:text-xl text-slate-300 font-light leading-relaxed">
-          <strong class="text-white font-medium">VELORA</strong> nace con la visión de transformar la relación entre las personas y los aromas. Integramos productos, fragancias y soluciones profesionales para crear experiencias memorables en espacios, personas y vehículos.
-        </p>
-
-        <p class="text-sm sm:text-base text-velora-muted leading-relaxed max-w-2xl mx-auto">
-          Nuestra misión es construir una marca de aromas sólida, innovadora y reconocida por su calidad superior, tecnología de difusión y atención personalizada en cada detalle.
-        </p>
-
-        <!-- Signature Brand Callout -->
-        <div class="pt-8">
-          <div class="p-8 sm:p-12 rounded-3xl bg-gradient-to-r from-velora-stone/30 via-velora-card to-velora-stone/30 border border-velora-champagne/20">
-            <span class="text-xs uppercase tracking-[0.4em] text-velora-champagne block mb-2">Nuestra firma</span>
-            <p class="text-2xl sm:text-4xl font-serif font-bold text-white tracking-wide">
-              VELORA. Aromas que dejan huella.
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Cierre y Contacto -->
-  <section id="contacto" class="py-24 border-t border-white/5 relative overflow-hidden">
-    
-    <!-- Background ambiance -->
-    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-velora-champagne/5 rounded-full blur-[140px] pointer-events-none"></div>
-
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-      
-      <!-- Conversion Banner -->
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-6 leading-tight">
-          Tu espacio ya comunica. <br>
-          <span class="gold-gradient-text">Hagamos que también se recuerde.</span>
-        </h2>
-        <p class="text-slate-300 text-base sm:text-lg mb-8">
-          Solicita una prueba gratuita y encuentra el aroma ideal para tu negocio.
-        </p>
-
-        <!-- CTA Buttons -->
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a 
-            href="#prueba-gratis" 
-            class="w-full sm:w-auto px-8 py-4 text-xs sm:text-sm font-semibold uppercase tracking-wider text-velora-obsidian bg-gradient-to-r from-velora-champagneLight via-velora-champagne to-velora-champagneDark rounded-full shadow-lg shadow-velora-champagne/20 hover:opacity-95 transition-all text-center"
-          >
-            Solicitar prueba gratis
-          </a>
-          <a 
-            href="https://wa.me/526141234567?text=Hola%2C%20quisiera%20hablar%20con%20un%20asesor%20de%20VELORA%20para%20conocer%20m%C3%A1s%20detalles." 
-            target="_blank"
-            rel="noopener noreferrer"
-            class="w-full sm:w-auto px-8 py-4 text-xs sm:text-sm font-semibold uppercase tracking-wider text-white border border-white/20 hover:border-velora-champagne rounded-full hover:bg-white/5 transition-all text-center flex items-center justify-center gap-2"
-          >
-            <i class="fab fa-whatsapp text-sm text-velora-champagne"></i>
-            <span>Hablar con un asesor</span>
-          </a>
-        </div>
-      </div>
-
-      <!-- Contact Directory Bento Box -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 pt-12 border-t border-white/10 text-sm">
-        
-        <!-- Contact item 1 -->
-        <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
-          <div class="w-10 h-10 rounded-xl bg-velora-champagne/10 flex items-center justify-center text-velora-champagne mb-4">
-            <i class="fab fa-whatsapp text-lg"></i>
-          </div>
-          <span class="text-xs uppercase tracking-wider text-velora-muted block mb-1">WhatsApp Directo</span>
-          <a href="https://wa.me/526141234567" target="_blank" rel="noopener noreferrer" class="text-white hover:text-velora-champagne font-medium transition-colors">
-            +52 614 123 4567
-          </a>
-        </div>
-
-        <!-- Contact item 2 -->
-        <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
-          <div class="w-10 h-10 rounded-xl bg-velora-champagne/10 flex items-center justify-center text-velora-champagne mb-4">
-            <i class="fas fa-phone text-base"></i>
-          </div>
-          <span class="text-xs uppercase tracking-wider text-velora-muted block mb-1">Teléfono</span>
-          <a href="tel:+526141234567" class="text-white hover:text-velora-champagne font-medium transition-colors">
-            614 123 4567
-          </a>
-        </div>
-
-        <!-- Contact item 3 -->
-        <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
-          <div class="w-10 h-10 rounded-xl bg-velora-champagne/10 flex items-center justify-center text-velora-champagne mb-4">
-            <i class="fas fa-envelope text-base"></i>
-          </div>
-          <span class="text-xs uppercase tracking-wider text-velora-muted block mb-1">Correo Electrónico</span>
-          <a href="mailto:contacto@velora.mx" class="text-white hover:text-velora-champagne font-medium transition-colors">
-            contacto@velora.mx
-          </a>
-        </div>
-
-        <!-- Contact item 4 -->
-        <div class="p-6 rounded-2xl bg-white/[0.02] border border-white/5">
-          <div class="w-10 h-10 rounded-xl bg-velora-champagne/10 flex items-center justify-center text-velora-champagne mb-4">
-            <i class="fas fa-location-dot text-base"></i>
-          </div>
-          <span class="text-xs uppercase tracking-wider text-velora-muted block mb-1">Ubicación</span>
-          <p class="text-white font-medium">Chihuahua, Chihuahua, México</p>
-        </div>
-
-      </div>
-      <!-- Footer Bottom -->
-      <div class="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-velora-muted">
-        <div class="flex items-center space-x-2">
-          <span class="font-serif tracking-widest text-white font-bold text-sm">VELORA</span>
-          <span>&copy; 2026. Todos los derechos reservados.</span>
-        </div>
-
-        <!-- Social Icons -->
-        <div class="flex items-center space-x-6">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="hover:text-velora-champagne transition-colors" aria-label="Instagram">
-            <i class="fab fa-instagram text-base"></i>
-          </a>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="hover:text-velora-champagne transition-colors" aria-label="Facebook">
-            <i class="fab fa-facebook-f text-base"></i>
-          </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="hover:text-velora-champagne transition-colors" aria-label="LinkedIn">
-            <i class="fab fa-linkedin-in text-base"></i>
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </section>
+    </section>
 
   </main>
   <!-- Floating WhatsApp Quick Action Button -->
   <aside class="fixed bottom-6 right-6 z-40">
-    <a 
-      href="https://wa.me/526141234567?text=Hola%2C%20quiero%20solicitar%20la%20prueba%20gratuita%20de%20aromatizaci%C3%B3n%20para%20mi%20negocio." 
-      target="_blank" 
-      rel="noopener noreferrer"
+    <a href="https://wa.me/526145989483?text=Hola%2C%20quiero%20solicitar%20la%20prueba%20gratuita%20de%20aromatizaci%C3%B3n%20para%20mi%20negocio."
+      target="_blank" rel="noopener noreferrer"
       class="flex items-center space-x-3 p-3.5 sm:px-5 sm:py-3.5 bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white rounded-full shadow-2xl shadow-emerald-950/80 transition-all duration-300 transform hover:scale-105 group"
-      aria-label="Contactar por WhatsApp"
-    >
+      aria-label="Contactar por WhatsApp">
       <i class="fab fa-whatsapp text-2xl font-bold"></i>
       <span class="hidden sm:inline text-xs uppercase tracking-wider font-semibold">Prueba Gratis 2 Días</span>
-      <span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-velora-champagne rounded-full border-2 border-velora-obsidian"></span>
+      <span
+        class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-velora-champagne rounded-full border-2 border-velora-obsidian"></span>
     </a>
   </aside>
 
   <!-- Lead Confirmation Dialog Modal -->
-  <div id="successModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
-    <div class="bento-card max-w-md w-full p-8 rounded-3xl border border-velora-champagne/40 bg-velora-card text-center space-y-5">
-      <div class="w-16 h-16 rounded-full bg-velora-champagne/10 border border-velora-champagne text-velora-champagne flex items-center justify-center mx-auto text-2xl">
+  <div id="successModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"
+    class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 hidden flex items-center justify-center p-4">
+    <div
+      class="bento-card max-w-md w-full p-8 rounded-3xl border border-velora-champagne/40 bg-velora-card text-center space-y-5">
+      <div
+        class="w-16 h-16 rounded-full bg-velora-champagne/10 border border-velora-champagne text-velora-champagne flex items-center justify-center mx-auto text-2xl">
         <i class="fas fa-check"></i>
       </div>
       <h3 class="text-2xl font-serif font-bold text-white" id="modalTitle">Tu solicitud está lista</h3>
       <p class="text-sm text-velora-muted leading-relaxed" id="modalMessage">
-        Revisa tus datos y envía el mensaje en WhatsApp para solicitar tus 2 días de prueba. Tu solicitud se enviará cuando pulses Enviar en WhatsApp.
+        Revisa tus datos y envía el mensaje en WhatsApp para solicitar tus 2 días de prueba. Tu solicitud se enviará
+        cuando pulses Enviar en WhatsApp.
       </p>
-      <a id="continueWhatsapp" class="button primary" target="_blank" rel="noopener noreferrer">Abrir WhatsApp <i class="fab fa-whatsapp" aria-hidden="true"></i></a>
-      <button 
-        id="closeModalBtn" 
-        class="w-full py-3 rounded-xl bg-velora-champagne text-velora-obsidian font-semibold uppercase tracking-wider text-xs hover:bg-velora-champagneLight transition-colors"
-      >
+      <a id="continueWhatsapp" class="button primary" target="_blank" rel="noopener noreferrer">Abrir WhatsApp <i
+          class="fab fa-whatsapp" aria-hidden="true"></i></a>
+      <button id="closeModalBtn"
+        class="w-full py-3 rounded-xl bg-velora-champagne text-velora-obsidian font-semibold uppercase tracking-wider text-xs hover:bg-velora-champagneLight transition-colors">
         Entendido
       </button>
     </div>
@@ -1334,4 +1446,5 @@
 
   <script src="./interaction.js"></script>
 </body>
+
 </html>
